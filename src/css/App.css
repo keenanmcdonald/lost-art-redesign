@@ -1,0 +1,214 @@
+/*
+background: #EEECE1
+outhouse orange: #FEC04F
+*/
+
+@font-face {
+  font-family: OakwoodClean;
+  src: url("../fonts/oakwood/Oakwood-Clean.otf") format("opentype");
+}
+@font-face {
+  font-family: OakwoodRough;
+  src: url("../fonts/oakwood/Oakwood-Rough.otf") format("opentype");
+}
+@font-face {
+  font-family: OakwoodRoughShadow;
+  src: url("../fonts/oakwood/Oakwood-RoughShadow.otf") format("opentype");
+}
+@font-face {
+  font-family: OldGrowth;
+  src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
+}
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #EEECE1;
+  overflow-x:hidden;
+
+}
+
+h1{
+  font-family: OldGrowth;
+  color: white;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-family: OldGrowth;
+  color: #FEC04F;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-family: OakwoodRoughShadow;
+  margin-top: 20px;
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+.section-title-container {
+  text-align: center;
+}
+
+/*Header*/
+header>*{
+  display: inline-block;
+}
+
+header{
+  position: relative;
+  height: 100px;
+}
+
+.logo-container{
+  float: left;
+}
+.nav-container{
+  width: 48%;
+  position: absolute;
+  bottom: 0px;
+}
+.cart-container{
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+}
+
+.logo{
+  height: 80px;
+  margin: 10px;
+}
+
+.logo-horizontal{
+  display: none;
+}
+
+.cart{
+  height: 40px;
+}
+
+.header div{
+  position: relative;
+}
+
+/*Nav*/
+.nav{
+  width: 100%;
+  margin: 4px 60px;
+}
+
+.nav li{
+  display: inline-block;
+  margin-right: 8%;
+}
+
+.nav a{
+  color: black;
+  text-decoration: none;
+  font-family: OakwoodClean;
+  font-size: 24px;
+}
+
+.nav a:hover{
+  border-bottom: 2px solid black;
+}
+
+
+/*Hero*/
+#hero{
+  background-color: black;
+  height: 500px;
+}
+
+#hero:hover{
+  cursor: pointer;
+}
+
+.photo-container{
+  min-width: 310px;
+  height: 500px;
+}
+
+.blaze-photo{
+  height: 500px;
+}
+
+.hero-text{
+  padding: 40px;
+}
+
+.sticker{
+  height: 140px;
+}
+
+
+@media only screen and (max-width: 550px) {
+  header{
+    position: static;
+    height: 125px;
+    text-align: center;
+  }
+
+  .nav-container{
+    position: static;
+    margin-left: 14px;
+    width: 100%;
+  }
+
+  .logo{
+    height: 80px;
+  }
+  .logo-container{
+    float: none;
+  }
+  .logo-horizontal{
+    display: inline-block;
+  }
+  .logo-vertical{
+    display: none;
+  }
+}
+
+/*Albums*/
+
+.album{
+  padding: 10px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.album:hover h4{
+  text-decoration: underline;
+}
+
+.album:hover{
+  cursor: pointer;
+}
+
+.cover{
+  width: 300px;
+  box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.3);
+}
+
+h4.artist, h4.title {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  margin: 2px;
+}
+
+h4.artist{
+  font-weight: 900;
+}
+
+.album-text-container{
+  display: inline-block;
+  width: 60%;
+  border-top: 2px black solid;
+  margin-top: 12px;
+  padding-top: 8px;
+}
