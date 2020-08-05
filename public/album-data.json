@@ -16,7 +16,7 @@
     "title": "The Lost Muscle Shoals Recordings",
     "artist": "Blaze Foley",
     "cover": "muscle-shoals-cover.jpg",
-    "description": ["Reissue of the first album recorded by the legendary Austin singer-songwriter who was tragically murdered in 1989. Recorded with Muscle Shoals studio musicians in 1984, the album was never distributed due to \"some trouble with the law\" resulting in the confiscation of most of the 500 copies originally pressed.", "These recordings find Blaze in a rare studio setting performing ten of his well-known compositions including the apparently timeless resistance song, Oval Room, originally written with Ronald Reagan in mind. The outstanding production values and musicianship breathe fresh air into these classic Blaze compositions. The original recordings have been digitally mastered by Austin engineer Mark Hallman.", "(LAR 1021 & 1021V, EOA2, 2017)"],
+    "description": ["Reissue of the first album recorded by the legendary Austin singer-songwriter who was tragically murdered in 1989. Recorded with Muscle Shoals studio musicians in 1984, the album was never distributed due to \"some trouble with the law\" resulting in the confiscation of most of the 500 copies originally pressed.", "These recordings find Blaze in a rare studio setting performing ten of his well-known compositions including the apparently timeless resistance song, Oval Room, originally written with Ronald Reagan in mind. The outstanding production values and musicianship breathe fresh air into these classic Blaze compositions. The original recordings have been digitally mastered by Austin engineer Mark Hallman."],
     "notes": "Recorded in 1984 at Broadway Sound Studio, Sheffield AL. Featuring the Muscle Shoals Horns, Gurf Morlix, Roger Clark, Clayton Ivey, John Willis, Cal Freeman, Ava Aldridge, Cindy Richardson & Lenny LeBlanc. All Songs Written by Blaze Foley © Texas Ghostwriters Music (BMI)",
     "quote": "\"This album is a treasure. If you're a Blaze fan, you must have this album.\" -Gurf Morlix",
     "purchase": [{
@@ -30,19 +30,19 @@
     }],
     "path": "/muscleshoals",
     "spotify": "\n      <iframe title='muscleshoals-spotify' src=\"https://open.spotify.com/embed/album/0zBGDWj6N9CvqfhZSTwy27\" width=\"300\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
-    "code": ""
+    "code": "LAR 1021 & 1021V | EOA2"
 }, {
     "title": "Live at the Austin Outhouse",
     "artist": "Blaze Foley",
     "tag": "Available on CD and Vinyl LP",
     "cover": "austin-outhouse-cover.jpg",
-    "description": ["“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.", "The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.", "The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”", "(LAR1015 and LAR1015V, 1999 & 2020)"],
+    "description": ["“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.", "The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.", "The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”"],
     "notes": "\n        Blaze Foley: Vocals, guitar.\n        Ed Bradfield: Harmonica.\n        Sarah Elizabeth Campbell: Vocals.\n        Lost John Casner: Piano.\n        Champ Hood: Fiddle.\n        David Waddell: Bass.\n      ",
     "quote": "",
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"KHSC722J6FDEN\"/>\n              <input type=\"image\" src=\"../src/images/add-to-cart.png\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"KHSC722J6FDEN\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
     }, {
         "format": "LP and Bonus 45 RPM",
         "price": "$25.00",
@@ -55,7 +55,7 @@
     "title": "Sittin' by the Road",
     "artist": "Blaze Foley",
     "cover": "sittin-by-the-road-cover.jpg",
-    "description": ["Captures Blaze Foley on his earliest known recordings. Simple, straightforward and strong, Sittin' By The Road contains a dozen tracks recorded during Blaze's 'treehouse' days in Georgia. Recorded in the mid-1970s on a home reel-to-reel machine, these songs showcase Blaze's talent in early form. Includes many of Foley's classic tunes plus three songs that do not appear on previous CDs.", "(LAR1020, 2010)"],
+    "description": ["Captures Blaze Foley on his earliest known recordings. Simple, straightforward and strong, Sittin' By The Road contains a dozen tracks recorded during Blaze's 'treehouse' days in Georgia. Recorded in the mid-1970s on a home reel-to-reel machine, these songs showcase Blaze's talent in early form. Includes many of Foley's classic tunes plus three songs that do not appear on previous CDs."],
     "notes": "\n        Mastered by Fred Remmert, Cedar Creek\n        Recording, Austin, TX. Special thanks to Lew\n        Gazaway and Gurf Morlix.\n      ",
     "quote": "",
     "purchase": [{
@@ -65,12 +65,12 @@
     }],
     "path": "/sittinbytheroad",
     "spotify": "\n        <iframe title='sittinbytheroad-spotify'src=\"https://open.spotify.com/embed/album/3nyszXBcbHA92HAB5NPsRL\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
-    "code": ""
+    "code": "LAR1020"
 }, {
     "title": "Cold Cold World",
     "artist": "Blaze Foley & The Beaver Valley Boys",
     "cover": "cold-cold-world-cover.jpg",
-    "description": ["Captures Blaze Foley and his working band—the Beaver Valley Boys—on their first Texas studio recordings dating from 1979 and 1980. Blaze and the band—anchored by the reknowned Gurf Morlix—are at the top of their form. Cold, Cold World includes 17 Foley songs from his well-known classics to six songs that appear on a Foley recording for the first time. Produced by Gurf Morlix and John Hill. The vinyl LP, released in 2013, contains 13 songs and includes a free album download, plus the four extra songs that were on the original 2006 CD release.", "(LAR 1019V, 2013 / LAR 1019, 2006)"],
+    "description": ["Captures Blaze Foley and his working band—the Beaver Valley Boys—on their first Texas studio recordings dating from 1979 and 1980. Blaze and the band—anchored by the reknowned Gurf Morlix—are at the top of their form. Cold, Cold World includes 17 Foley songs from his well-known classics to six songs that appear on a Foley recording for the first time. Produced by Gurf Morlix and John Hill. The vinyl LP, released in 2013, contains 13 songs and includes a free album download, plus the four extra songs that were on the original 2006 CD release."],
     "notes": "\n        Blaze Foley: Vocals, guitar, bass.\n        Gurf Morlix: Bass, electric guitars, vocals.\n        Jimmy Don Smith: Electric guitar.\n        Tony Braunagel: Drums.\n        John Hill: Drums.\n        Riley Osbourn: Piano, slide guitar.\n      ",
     "quote": "",
     "purchase": [{
@@ -84,12 +84,12 @@
     }],
     "path": "/coldcoldworld",
     "spotify": "\n        <iframe title='coldcoldworld-spotify' src=\"https://open.spotify.com/embed/album/34vC7L9NqOPLfqw3xjGGTN\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
-    "code": ""
+    "code": "LAR 1019 & 1019V"
 }, {
     "title": "Oval Room",
     "artist": "Blaze Foley",
     "cover": "oval-room-cover.jpg",
-    "description": ["Recorded just weeks before his tragic death in 1989, Oval Room draws from the same live sessions that were represented on Blaze Foley – Live at the Austin Outhouse, released to critical acclaim in 1999. Live at the Austin Outhouse sparked interest in Foley’s legend and mystique, earning him folk hero status among fans from Austin to Amsterdam. From in-your-face political commentary to heart-touching, sometimes heart-wrenching love songs, these recordings speak to Blaze’s uncompromising artistic vision. Produced by Gurf Morix and John Casner.", "(LAR 1018, 2004)"],
+    "description": ["Recorded just weeks before his tragic death in 1989, Oval Room draws from the same live sessions that were represented on Blaze Foley – Live at the Austin Outhouse, released to critical acclaim in 1999. Live at the Austin Outhouse sparked interest in Foley’s legend and mystique, earning him folk hero status among fans from Austin to Amsterdam. From in-your-face political commentary to heart-touching, sometimes heart-wrenching love songs, these recordings speak to Blaze’s uncompromising artistic vision. Produced by Gurf Morix and John Casner."],
     "notes": "\n        Blaze Foley: Vocals, guitar.\n        Ed Bradfield: Harmonica.\n        Tony DiRoadie: Harmonica.\n        Lost John Casner: Piano.\n        Champ Hood: Fiddle.\n        Pat Mears: Vocals.\n        Gurf Morlix: Guitars, bass, vocals.\n        John Hill/Leland Waddell: Drums.\n        Texana Dames: Vocals.\n        ",
     "quote": "",
     "purchase": [{
@@ -99,12 +99,12 @@
     }],
     "path": "/ovalroom",
     "spotify": "\n        <iframe title='ovalroom-spotify' src=\"https://open.spotify.com/embed/album/5UklcnwePgX8gDrOMTO4qS\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>    \n      ",
-    "code": ""
+    "code": "LAR 1018"
 }, {
     "title": "Duct Tape Messiah",
     "artist": "Blaze Foley",
     "cover": "duct-tape-messiah-cover.jpg",
-    "description": ["Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!", "(LAR 1021, April 2011)", "To learn more about the documentary film visit: ", {
+    "description": ["Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!", "To learn more about the documentary film visit: ", {
         "type": "a",
         "key": null,
         "ref": null,
@@ -123,12 +123,12 @@
     }],
     "path": "/ducttapemessiah",
     "spotify": "\n        <iframe title='ducttapemessiah-spotify' src=\"https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
-    "code": ""
+    "code": "LAR 1021"
 }, {
     "title": "Austin's Original Singer Songwriter",
     "artist": "Bill Neely",
     "cover": "bill-neely-cover.jpg",
-    "description": ["Austin is known as the breeding ground for a rich legacy of country and blues singer-songwriters. Bill Neely was Austin’s first. Bill Neely bridged the origins of country blues and the modern Texas singer/songwriter tradition. His talent as a writer and singer of Texas country and blues makes him a true Texas music treasure.", "(LAR 1016, 2002)"],
+    "description": ["Austin is known as the breeding ground for a rich legacy of country and blues singer-songwriters. Bill Neely was Austin’s first. Bill Neely bridged the origins of country blues and the modern Texas singer/songwriter tradition. His talent as a writer and singer of Texas country and blues makes him a true Texas music treasure."],
     "notes": "\n        Bill Neely: Vocals, guitar.\n        Larry Kirbo: Guitar.\n        John Moyer: Bass.\n      ",
     "quote": "",
     "purchase": [{
@@ -137,13 +137,13 @@
         "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"WGSW6YCYQ6LEN\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
     }],
     "path": "/billneely",
-    "code": ""
+    "code": "LAR 1016"
 }, {
     "title": "Duct Tape Messiah - Deluxe Edition",
     "artist": "",
     "cover": "duct-tape-deluxe-cover.jpg",
     "albumPageCoverFileName": "duct-tape-deluxe-cover.jpg",
-    "description": ["The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes.", "(LAR/ABP 1002, April 2014)"],
+    "description": ["The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes."],
     "quote": "",
     "purchase": [{
         "format": "DVD",
@@ -152,5 +152,5 @@
     }],
     "path": "/ducttapedoc",
     "video": "\n        <iframe title='duct-tape-messiah-trailer' width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tz2kULLO0Sc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n      ",
-    "code": ""
+    "code": "LAR/ABP 1002"
 }]

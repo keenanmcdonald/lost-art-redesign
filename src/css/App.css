@@ -84,6 +84,10 @@ header{
   margin: 10px;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 .logo-horizontal{
   display: none;
 }

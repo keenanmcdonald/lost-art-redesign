@@ -1,5 +1,5 @@
 .album-page{
-    padding: 20px 5%;
+    padding: 20px 10%;
 }
 
 img.album-page-cover{
@@ -25,5 +25,15 @@ h2.album-page-title{
 p.album-page-code{
     font-weight: 600;
     font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.album-page-description-container{
+    margin-top: 20px;
+    padding: 20px 2%;
+    border-top: 2px solid black;
+}
+  
+.album-page-description{
     font-family: 'Varela Round', sans-serif;
 }
