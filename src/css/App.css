@@ -309,6 +309,30 @@ section#contact:hover *{
   h4.artist, h4.title {
     font-size: 14px;
   }
+
+  /*contact*/
+
+  img.contact-background-logo{
+    width: 100px;
+  }
+
+  .contact-info li {
+    margin-bottom: 0;
+    font-size: 8px;
+  }
+
+  section#contact{
+    padding: 20px 10px;
+    padding-bottom: 0;
+  }
+
+  ul.contact-info{
+    padding: 6px 0;
+  }
+  
+  
+
+  
 }
 
 @media only screen and (min-width: 1000px) {
