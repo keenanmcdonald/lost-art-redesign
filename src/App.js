@@ -64,9 +64,9 @@ class App extends React.Component {
             <Hero/>
             <Albums albums={this.state.albums} ></Albums>
             <About/>
-            <Contact/>
           </div>}/>
         {routes}
+        <Contact/>
       </main>
     )  
   }

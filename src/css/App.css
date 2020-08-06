@@ -206,6 +206,46 @@ h4.artist{
   padding-top: 8px;
 }
 
+/*contact*/
+section#contact{
+  padding: 20px 30px;
+  padding-bottom: 0px;
+}
+
+img.contact-background-logo{
+  float: right;
+  width: 180px;
+  opacity: 0.5;
+  transition-duration: 0.3s;
+}
+
+ul.contact-info{
+  padding: 12px 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+section#contact:hover *{
+  opacity: .9;
+}
+
+.contact-info li {
+  display: block;
+  font-family: 'Varela Round', sans-serif;
+  margin-bottom: 8px;
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+.contact-info a{
+  color: black;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 850px) {
 
   .nav-about{
@@ -248,13 +288,13 @@ h4.artist{
   .hero-text{
     padding: 30px 0px;
   }
-  h1{
+  h1.hero-artist{
     padding-left: 46px;
     font-size: 24px;
     margin-bottom: 90px;
   }
   
-  h2{
+  h2.hero-title{
     padding-left: 20px;
     font-size: 20px;
     margin-bottom: 90px;
