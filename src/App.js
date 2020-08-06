@@ -7,6 +7,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import {Route} from 'react-router-dom'
 import AlbumPage from './components/AlbumPage'
+import ScrollToTop from './components/ScrollToTop'
+
 
 class App extends React.Component {
   constructor(props){
@@ -41,6 +43,7 @@ class App extends React.Component {
 
     return (
       <main>
+        <ScrollToTop/>
         <Header/>
         <Route exact path='/' render={() => 
           <div>

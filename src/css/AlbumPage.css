@@ -1,5 +1,11 @@
 .album-page{
-    padding: 20px 10%;
+    padding: 0 10%;
+}
+
+.album-page-main{
+    border-top: 2px solid black;
+    margin-top: 4px;
+    padding: 20px 2%;
 }
 
 img.album-page-cover{
@@ -13,27 +19,102 @@ h1.album-page-artist, h2.album-page-title{
 }
 
 h1.album-page-artist{
-    font-size: 44px;
-    margin-bottom: 16px;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 h2.album-page-title{
-    font-size: 34px;
-    margin-bottom: 16px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 p.album-page-code{
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Varela Round', sans-serif;
+}
+
+.title-purchase-container{
+    position: relative;
 }
 
 .album-page-description-container{
-    margin-top: 20px;
     padding: 20px 2%;
     border-top: 2px solid black;
 }
   
-.album-page-description{
+.quote-container{
+    text-align: center;
+    padding: 0px 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.quote, .quote-attribution{
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0px;
+}
+.quote{
+    font-style: italic;
+}
+
+/*purchase*/
+.album-page-purchase{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.purchase-form-container{
+    width: 80px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+button.album-page-purchase-button, input.album-page-purchase-button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px 8px;
     font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    width: 80px;
+    display: inline-block;
+}
+button.price, input.price{
+    display: none;
+    background-color: rgb(85, 85, 85);
+    border-color: rgb(85, 85, 85);
+    color: #EEECE1
+}
+.purchase-button-container:hover button.format{
+    display: none;
+}
+
+.purchase-button-container:hover button.price{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.notes{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    h1.album-page-artist{
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+    
+    h2.album-page-title{
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+    
+    p.album-page-code{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
 }
