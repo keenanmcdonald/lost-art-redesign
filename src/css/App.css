@@ -20,6 +20,10 @@ outhouse orange: #FEC04F
   src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
 }
 
+* {
+  transition-duration: 0.3s;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -216,7 +220,6 @@ img.contact-background-logo{
   float: right;
   width: 180px;
   opacity: 0.5;
-  transition-duration: 0.3s;
 }
 
 ul.contact-info{
@@ -236,13 +239,11 @@ section#contact:hover *{
   font-size: 12px;
   opacity: 0.5;
   font-weight: 600;
-  transition-duration: 0.3s;
 }
 
 .contact-info a{
   color: black;
   opacity: 0.8;
-  transition-duration: 0.3s;
   text-decoration: underline;
 }
 
@@ -308,6 +309,10 @@ section#contact:hover *{
   h4.artist, h4.title {
     font-size: 14px;
   }
-  
-  
+}
+
+@media only screen and (min-width: 1000px) {
+  .sticker{
+    height: 180px;
+  }
 }
