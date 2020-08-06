@@ -3,7 +3,7 @@ import {withRouter} from 'react-router-dom'
 
 function Hero(props){
     return (
-        <section id='hero' className='row' onClick={() => props.history.push('/austinouthouse')}>
+        <section id='hero' className='row no-gutters' onClick={() => props.history.push('/austinouthouse')}>
             <div className='col-5 photo-container'>
                 <img className='blaze-photo' alt='blaze in profile' src={require('../images/foley.jpg')}/>
                 <img className='blaze-photo-slim' alt='blaze in profile' src={require('../images/foley-slim.jpg')}/>

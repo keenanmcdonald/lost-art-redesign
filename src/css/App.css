@@ -30,7 +30,7 @@ html{
 
 body{
   background-color: #EEECE1;
-  overflow-x:hidden;
+  /*overflow-x:hidden;*/
 
 }
 
@@ -144,6 +144,8 @@ header{
 #hero{
   background-color: black;
   height: 500px;
+  width: 100vw;
+  margin: 0;
 }
 
 #hero:hover{
@@ -165,6 +167,7 @@ header{
 
 .hero-text{
   padding: 40px;
+
 }
 
 .sticker{
@@ -287,7 +290,7 @@ section#contact:hover *{
     display: inline-block;
   }
   .hero-text{
-    padding: 30px 0px;
+    padding: 30px 10px;
   }
   h1.hero-artist{
     padding-left: 46px;
@@ -329,10 +332,6 @@ section#contact:hover *{
   ul.contact-info{
     padding: 6px 0;
   }
-  
-  
-
-  
 }
 
 @media only screen and (min-width: 1000px) {
