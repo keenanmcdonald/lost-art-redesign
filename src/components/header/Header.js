@@ -4,15 +4,18 @@ import {withRouter} from 'react-router-dom'
 
 function Header(props) {
 
-    console.log(props.history)
     return (
         <header>
-            <div className='logo-container' onClick={() => props.history.push('/')}>
+            <div className='logo-container' onClick={() => {
+                props.setScrollTo('')
+                props.history.push('/')
+            }
+                }>
                 <img className='logo logo-vertical' alt='logo' src={require('../../images/logo-mic.png')}/>
                 <img className='logo logo-horizontal' alt='logo' src={require('../../images/logo-horizontal.png')}/>
             </div>
             <div className='nav-container'>
-                <Nav/>
+                <Nav setScrollTo={(elementId) => props.setScrollTo(elementId)}/>
             </div>
             
         </header>

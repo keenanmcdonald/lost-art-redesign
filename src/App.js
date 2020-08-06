@@ -7,7 +7,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import {Route} from 'react-router-dom'
 import AlbumPage from './components/AlbumPage'
-import ScrollToTop from './components/ScrollToTop'
+import {withRouter} from 'react-router-dom'
 
 
 class App extends React.Component {
@@ -17,6 +17,7 @@ class App extends React.Component {
     this.state = {
       albums: [],
       loaded: false,
+      scrollTo: '',
     }
   }
 
@@ -33,6 +34,20 @@ class App extends React.Component {
     }
   }
 
+  componentDidUpdate(){
+    console.log('did update: ', this.state.scrollTo)
+    if (this.state.scrollTo && document.getElementById(this.state.scrollTo)){
+      document.getElementById(this.state.scrollTo).scrollIntoView(true)
+    }
+    else{
+      window.scrollTo(0, 0);
+    }
+  }
+
+  setScrollTo(elementId){
+    this.setState({scrollTo: elementId})
+  }
+
 
   render(){
     const routes = []
@@ -43,8 +58,7 @@ class App extends React.Component {
 
     return (
       <main>
-        <ScrollToTop/>
-        <Header/>
+        <Header setScrollTo={(elementId) => this.setScrollTo(elementId)}/>
         <Route exact path='/' render={() => 
           <div>
             <Hero/>
@@ -58,4 +72,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withRouter(App);
