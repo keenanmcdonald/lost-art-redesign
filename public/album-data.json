@@ -73,7 +73,7 @@
 }, {
     "title": "Cold Cold World",
     "artist": "Blaze Foley & The Beaver Valley Boys",
-    "cover": "cold-cold-world-cover.jpg",
+    "cover": "cold-cold-world-cover2.jpg",
     "description": ["Captures Blaze Foley and his working band—the Beaver Valley Boys—on their first Texas studio recordings dating from 1979 and 1980. Blaze and the band—anchored by the reknowned Gurf Morlix—are at the top of their form. Cold, Cold World includes 17 Foley songs from his well-known classics to six songs that appear on a Foley recording for the first time. Produced by Gurf Morlix and John Hill. The vinyl LP, released in 2013, contains 13 songs and includes a free album download, plus the four extra songs that were on the original 2006 CD release."],
     "notes": "\n        Blaze Foley: Vocals, guitar, bass.\n        Gurf Morlix: Bass, electric guitars, vocals.\n        Jimmy Don Smith: Electric guitar.\n        Tony Braunagel: Drums.\n        John Hill: Drums.\n        Riley Osbourn: Piano, slide guitar.\n      ",
     "quote": "",
@@ -110,17 +110,7 @@
     "title": "Duct Tape Messiah",
     "artist": "Blaze Foley",
     "cover": "duct-tape-messiah-cover.jpg",
-    "description": ["Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!", "To learn more about the documentary film visit: ", {
-        "type": "a",
-        "key": null,
-        "ref": null,
-        "props": {
-            "href": "www.blazefoleymovie.com",
-            "children": "www.blazefoleymovie.com"
-        },
-        "_owner": null,
-        "_store": {}
-    }],
+    "description": ["Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!"],
     "notes": "",
     "quote": "",
     "quote_attribution": "",
@@ -161,6 +151,6 @@
         "button_id": "QAGSMPA63SQDJ"
     }],
     "path": "/ducttapedoc",
-    "video": "\n        <iframe title='duct-tape-messiah-trailer' width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tz2kULLO0Sc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n      ",
+    "video": "<iframe class='album-page-video' title='duct-tape-messiah-trailer' src=\"https://www.youtube.com/embed/tz2kULLO0Sc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "code": "LAR/ABP 1002"
 }]

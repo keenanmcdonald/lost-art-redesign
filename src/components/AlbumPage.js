@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/AlbumPage.css'
+import ReactHtmlParser from 'react-html-parser'
 
 
 function AlbumPage(props){
@@ -21,6 +22,12 @@ function AlbumPage(props){
         )
     }
 
+    const description = []
+
+    for (let i = 0; i < props.description.length; i++){
+        description.push(<p key={i} className='album-page-description'>{props.description[i]}</p> )
+    }
+
     return (
         <section className='album-page'>
             <div className='album-page-main row'>
@@ -35,16 +42,23 @@ function AlbumPage(props){
                         <p className='album-page-purchase'>Purchase</p>
                         {purchase}
                     </div> 
+                    {props.quote ?
                     <div className='quote-container'>
                         <p className='quote'>{props.quote}</p>
                         <p className='quote-attribution'>{props.quote_attribution}</p>
                     </div>
+                    : ''}
                 </div> 
             </div>
             <div className='album-page-description-container'>
-                <p className='album-page-description'>{props.description}</p> 
+                {description} 
                 <p className='notes'>{props.notes}</p>
             </div>
+            {props.video ? 
+                <div className='album-page-video-container'>
+                    {ReactHtmlParser(props.video)}
+                </div>
+            : ''}
         </section>
     )
 }
