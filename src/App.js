@@ -41,7 +41,6 @@ class App extends React.Component {
   }
 
   componentDidUpdate(){
-    console.log('did update: ', this.state.scrollTo)
     if (this.state.scrollTo && document.getElementById(this.state.scrollTo)){
       document.getElementById(this.state.scrollTo).scrollIntoView(true)
     }
