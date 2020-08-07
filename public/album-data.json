@@ -14,7 +14,21 @@
             "button_id": "HT544KCHMQZTU"
             }],
         "path": "/claypigeons",
-        "code": ""
+        "code": "",
+        "tracklist": [
+            "Clay Pigeons",
+            "You'll Get Yours Aplenty",
+            "Election Day",
+            "Lovin' You",
+            "For Anything Less",
+            "Oval Room",
+            "Cold, Cold World",
+            "Down Here Where I Am",
+            "Moonlight",
+            "Rainbows And Ridges",
+            "My Reasons Why",
+            "If I Could Only Fly"
+        ]
     }, {
         "title": "The Lost Muscle Shoals Recordings",
         "artist": "Blaze Foley",
@@ -33,7 +47,7 @@
             "button_id": "CGBR8D8NF4KZQ"
         }],
         "path": "/muscleshoals",
-        "spotify": "\n      <iframe title='muscleshoals-spotify' src=\"https://open.spotify.com/embed/album/0zBGDWj6N9CvqfhZSTwy27\" width=\"300\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
+        "spotify": "0zBGDWj6N9CvqfhZSTwy27",
         "code": "LAR 1021 & 1021V | EOA2"
     }, {
         "title": "Live at the Austin Outhouse",
@@ -54,7 +68,7 @@
             "button_id": "WD77B3487E45S"
         }],
         "path": "/austinouthouse",
-        "spotify": "\n        <iframe title='austinouthouse-spotify' src=\"https://open.spotify.com/embed/album/20jfTvbCUwJjOAhPkeIv61\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
+        "spotify": "20jfTvbCUwJjOAhPkeIv61",
         "code": "LAR1015V | EOE3"
     }, {
         "title": "Sittin' by the Road",
@@ -70,7 +84,7 @@
             "button_id": "W53QAYNSQMJLS"
         }],
         "path": "/sittinbytheroad",
-        "spotify": "\n        <iframe title='sittinbytheroad-spotify'src=\"https://open.spotify.com/embed/album/3nyszXBcbHA92HAB5NPsRL\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
+        "spotify": "3nyszXBcbHA92HAB5NPsRL",
         "code": "LAR1020"
     }, {
         "title": "Cold Cold World",
@@ -90,7 +104,7 @@
             "button_id": "S85PVRV8GWNFE"
         }],
         "path": "/coldcoldworld",
-        "spotify": "\n        <iframe title='coldcoldworld-spotify' src=\"https://open.spotify.com/embed/album/34vC7L9NqOPLfqw3xjGGTN\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
+        "spotify": "34vC7L9NqOPLfqw3xjGGTN",
         "code": "LAR 1019 & 1019V"
     }, {
         "title": "Oval Room",
@@ -106,7 +120,7 @@
             "button_id": "L5C9B5P4ZTZHN"
         }],
         "path": "/ovalroom",
-        "spotify": "\n        <iframe title='ovalroom-spotify' src=\"https://open.spotify.com/embed/album/5UklcnwePgX8gDrOMTO4qS\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>    \n      ",
+        "spotify": "5UklcnwePgX8gDrOMTO4qS",
         "code": "LAR 1018"
     }, {
         "title": "Duct Tape Messiah",
@@ -122,7 +136,7 @@
             "button_id": "LJ2LFFVJP5WGU"
         }],
         "path": "/ducttapemessiah",
-        "spotify": "\n        <iframe title='ducttapemessiah-spotify' src=\"https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      ",
+        "spotify": "5fGFITqMvi1G0lQBplF4Ci",
         "code": "LAR 1021"
     }, {
         "title": "Austin's Original Singer Songwriter",
@@ -158,7 +172,7 @@
     }],
     "about": [
         "Blaze Foley existed largely in the form of colorful folklore in 1990’s Austin.  Beyond the remembrances of his small cadre of fellow travelers Blaze was hard to find.   A reference in a tribute song, a mention in a Townes story, but little more.  No LPs or CDs could be found in the record stores.  Certainly nothing playing on the radio.",
-        "To hear Blaze required purchasing a cassette from Blaze’s running buddy, Lost John Casner who had recorded Blaze’s two-night stand at the Austin Outhouse in December 1988.  On February 1, 1989, fate would whisk Blaze from the world leaving Lost John to finish the Outhouse project alone.  For years John single-handedly carried Blaze’s legacy by retailing the cassette out of his trunk around Austin’s clubs.",
+        "To hear Blaze required buying a cassette from his running buddy, Lost John Casner who had recorded Blaze’s two-night stand at the Austin Outhouse in December 1988.  On February 1, 1989, fate would whisk Blaze from the world leaving Lost John to finish the Outhouse project alone.  For years John single-handedly carried Blaze’s legacy by retailing the cassette out of his trunk around Austin’s clubs.",
         "Anyone who has heard the Outhouse recordings would agree they deserved to be shared.   With absolutely no experience in the record business Lost Art’s principals, Tom Tobin and Craig McDonald offered to work with John to get the recordings onto CD and more widely distributed.  Lost Art released the Live at the Austin Outhouse CD in November 1999.  Twelve of the 22 songs John and Blaze had recorded at the club eleven years earlier were included.  Lost Art Records was born and Blaze had a home label.",
         "The Outhouse CD helped spark new interest in Blaze.  Since releasing Live at the Austin Outhouse, Lost Art has curated and released five additional Blaze albums.  Lost Art’s catalog includes a compilation of recordings from Bill Neely, one of Austin’s earliest singer-songwriters.  Lost Art is the primary distributor of Kevin Triplett’s acclaimed documentary film, Duct Tape Messiah, and the sole U.S. distributor of the book by Carmen and Kai Nees, Blaze Foley: From Misfit To Legend."
     ],

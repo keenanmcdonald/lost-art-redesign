@@ -37,11 +37,17 @@ p.album-page-code{
     position: relative;
 }
 
-.album-page-description-container{
+.album-page-description-tracklist-container{
     padding: 20px 2%;
     padding-bottom: 0;
     border-top: 2px solid black;
+
 }
+
+.album-page-spotify{
+    padding: 0 5%;
+}
+
   
 .quote-container{
     text-align: center;
@@ -118,6 +124,26 @@ button.price, input.price{
     left: 0;
     top: 0;    
 }
+
+/*tracklist*/
+
+.album-page-tracklist-title-container{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 14px;
+}
+
+h5.album-page-tracklist-title{
+    font-family: OldGrowth;
+    font-size: 14px;
+}
+
+li.album-page-track{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 8px;
+    padding-left: 4px;
+}
+
 
 @media only screen and (max-width: 850px) {
     h1.album-page-artist{
