@@ -49,8 +49,7 @@ h2{
 h3{
   font-family: OakwoodRoughShadow;
   margin-top: 20px;
-  font-size: 34px;
-  border-bottom: 2px solid black;
+  font-size: 28px;
   display: inline-block;
 }
 
@@ -213,6 +212,18 @@ h4.artist{
   padding-top: 8px;
 }
 
+
+/*about*/
+.about-text-body{
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.about-photo{
+  width: 50%;
+  float: right;
+}
+
 /*contact*/
 section#contact{
   padding: 20px 30px;
@@ -325,8 +336,8 @@ section#contact:hover *{
   }
 
   section#contact{
-    padding: 20px 10px;
-    padding-bottom: 0;
+    padding: 20px 14px;
+    padding-bottom: 4px;
   }
 
   ul.contact-info{

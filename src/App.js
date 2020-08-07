@@ -18,14 +18,20 @@ class App extends React.Component {
       albums: [],
       loaded: false,
       scrollTo: '',
+      about: [],
+      contact: {
+        email: "",
+        phone: "",
+        address: ""
+      },
     }
   }
 
   async getData() {
     const res = await fetch("/album-data.json");
     const resText = await res.text();
-    const albums = await JSON.parse(resText)
-    return this.setState({albums, loaded: true});
+    const {albums, about, contact} = await JSON.parse(resText)
+    return this.setState({albums, about, contact, loaded: true});
   }
 
   componentDidMount() {
@@ -63,10 +69,10 @@ class App extends React.Component {
           <div>
             <Hero/>
             <Albums albums={this.state.albums} ></Albums>
-            <About/>
+            <About text={this.state.about}/>
           </div>}/>
         {routes}
-        <Contact/>
+        <Contact {...this.state.contact} />
       </main>
     )  
   }
