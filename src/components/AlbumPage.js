@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/AlbumPage.css'
 import ReactHtmlParser from 'react-html-parser'
+import {isMobile} from 'react-device-detect'
 
 
 class AlbumPage extends React.Component{
@@ -17,7 +18,7 @@ class AlbumPage extends React.Component{
     componentDidMount(){
         this.setState({
             width: this.description.current.offsetWidth * .8,
-            height: this.description.current.offsetHeight
+            height: isMobile ? 400 : (this.description.current.offsetHeight > 500 ? 500 : this.description.current.offsetHeight)
         })
     }
 
