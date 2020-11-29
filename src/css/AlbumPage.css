@@ -87,6 +87,12 @@ button.album-page-purchase-button, input.album-page-purchase-button {
     width: 80px;
     display: inline-block;
 }
+
+button.album-page-purchase-button.disabled{
+    background-color: rgb(85, 85, 85);
+    border-color: rgb(85, 85, 85);
+}
+
 button.price, input.price{
     display: none;
     background-color: rgb(85, 85, 85);
@@ -101,6 +107,14 @@ button.price, input.price{
     display: inline-block;
     cursor: pointer;
 }
+
+.purchase-button-container:hover button.format.disabled{
+    display: inline-block;
+}
+.purchase-button-container:hover button.price.disabled{
+    display: none;
+}
+
 
 .notes{
     font-size: 12px;
@@ -123,6 +137,10 @@ button.price, input.price{
     height: 100%;
     left: 0;
     top: 0;    
+}
+
+.message{
+    color: rgb(201, 0, 0);
 }
 
 /*tracklist*/

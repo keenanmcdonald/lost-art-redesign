@@ -34,8 +34,8 @@ class AlbumPage extends React.Component{
                         <input type="hidden" name="cmd" value="_s-xclick"/>
                         <input type="hidden" name="hosted_button_id" value={this.props.purchase[i].button_id}/>
                         <div className='purchase-button-container'>
-                            <button type='submit' form={`paypal${i}`} className='album-page-purchase-button format'>{this.props.purchase[i].format.toUpperCase()}</button>
-                            <button type='submit' form={`paypal${i}`} className='album-page-purchase-button price'>{this.props.purchase[i].price}</button>
+                            <button type='submit' form={`paypal${i}`} className={`album-page-purchase-button format ${this.props.purchase[i].disabled ? 'disabled' : ''}`}>{this.props.purchase[i].format.toUpperCase()}</button>
+                            <button type='submit' form={`paypal${i}`} className={`album-page-purchase-button price ${this.props.purchase[i].disabled ? 'disabled' : ''}`}>{this.props.purchase[i].price}</button>
                         </div>
                     </form>
                 </div> 
@@ -67,6 +67,7 @@ class AlbumPage extends React.Component{
                             <p className='album-page-purchase'>Purchase</p>
                             {purchase}
                         </div> 
+                        <p className='message'>{this.props.message}</p>
                         {this.props.quote ?
                         <div className='quote-container'>
                             <p className='quote'>{this.props.quote}</p>

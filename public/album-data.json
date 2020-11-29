@@ -65,8 +65,10 @@
         }, {
             "format": "LP",
             "price": "$25.00",
-            "button_id": "WD77B3487E45S"
+            "button_id": "6THV4P956B9E6",
+            "disabled": true
         }],
+        "message": "Vinyl temporarily out of stock",
         "path": "/austinouthouse",
         "spotify": "20jfTvbCUwJjOAhPkeIv61",
         "code": "LAR1015V | EOE3"
@@ -117,8 +119,10 @@
         "purchase": [{
             "format": "CD",
             "price": "$15.99",
-            "button_id": "L5C9B5P4ZTZHN"
+            "button_id": "L5C9B5P4ZTZHN",
+            "disabled": true
         }],
+        "message": "Temporarily out of stock",
         "path": "/ovalroom",
         "spotify": "5UklcnwePgX8gDrOMTO4qS",
         "code": "LAR 1018"
@@ -152,7 +156,25 @@
             "button_id": "WGSW6YCYQ6LEN"
         }],
         "path": "/billneely",
-        "code": "LAR 1016"
+        "code": "LAR 1016",
+        "tracklist": [
+            "Down in Ol’ Caroline",
+            "Blackland Farm",
+            "Cryin’ the Blues Over You",
+            "Ella Speed",
+            "Rock ‘n’ Roll Baby",
+            "Hobo Bill’s Last Ride",
+            "Texas Map Song",
+            "Skid Row",
+            "Means to an End",
+            "Austin Breakdown",
+            "Blues on Ellum",
+            "Satin’s Burning Hell",
+            "Gamblin’ Blackie",
+            "I Don’t Love Nobody",
+            "Wagon Yard",
+            "Law and Justice"
+        ]
     }, {
         "title": "Duct Tape Messiah - Deluxe Edition",
         "artist": "",
