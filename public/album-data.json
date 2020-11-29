@@ -59,14 +59,14 @@
         "quote": "",
         "quote_attribution": "",
         "purchase": [{
-            "format": "CD",
-            "price": "$15.99",
-            "button_id": "KHSC722J6FDEN"
-        }, {
-            "format": "LP",
+            "format": "VINYL",
             "price": "$25.00",
             "button_id": "6THV4P956B9E6",
             "disabled": true
+        },{
+            "format": "CD",
+            "price": "$15.99",
+            "button_id": "KHSC722J6FDEN"
         }],
         "message": "Vinyl temporarily out of stock",
         "path": "/austinouthouse",
