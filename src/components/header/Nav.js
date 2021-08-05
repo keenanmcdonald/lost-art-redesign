@@ -5,10 +5,17 @@ function Nav(props){
 
     return (
         <ul className='nav'>
-            <li><button onClick={()=> {
+            <li>
+                <button onClick={()=> {
                     props.history.push('/')
                     props.setScrollTo('releases')
                 }}>releases</button>
+            </li>
+            <li>
+                <button onClick={() => {
+                props.history.push('/')
+                props.setScrollTo('merch')
+                }}>merch</button>
             </li>
             <li className='nav-about'><button onClick={()=> {
                     props.history.push('/')

@@ -10,6 +10,9 @@ function Albums(props){
 
     return(
         <section id='releases'>
+            <div className='section-title-container'>
+                <h3>Releases</h3>
+            </div>
             <div className='albums row no-gutters'>
                 {albums}
             </div>

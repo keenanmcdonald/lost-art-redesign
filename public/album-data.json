@@ -179,7 +179,6 @@
         "title": "Duct Tape Messiah - Deluxe Edition",
         "artist": "",
         "cover": "duct-tape-deluxe-cover.jpg",
-        "albumPageCoverFileName": "duct-tape-deluxe-cover.jpg",
         "description": ["The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes."],
         "quote": "",
         "quote_attribution": "",
@@ -192,6 +191,29 @@
         "video": "<iframe class='album-page-video' title='duct-tape-messiah-trailer' src=\"https://www.youtube.com/embed/tz2kULLO0Sc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "code": "LAR/ABP 1002"
     }],
+    "merch": [
+        {
+            "title": "Blaze Tee",
+            "cover": "shirt1.jpg",
+            "description": ["Officially Licensed Blaze Tees.\nExclusively from Lost Art Records.", "Iconic Blaze Image by C.P. Vaughn.\n100% Cotton Gildan Shirt."],
+            "path": "/blazetee",
+            "purchase": [{
+                "format": "S",
+                "price": "$18.00",
+                "button_id": ""
+            },
+            {
+                "format": "M",
+                "price": "$18.00",
+                "button_id": ""
+            },
+            {
+                "format": "L",
+                "price": "$18.00",
+                "button_id": ""
+            }]
+        }
+    ],
     "about": [
         "Blaze Foley existed largely in the form of colorful folklore in 1990’s Austin.  Beyond the remembrances of his small cadre of fellow travelers Blaze was hard to find.   A reference in a tribute song, a mention in a Townes story, but little more.  No LPs or CDs could be found in the record stores.  Certainly nothing playing on the radio.",
         "To hear Blaze required buying a cassette from his running buddy, Lost John Casner who had recorded Blaze’s two-night stand at the Austin Outhouse in December 1988.  On February 1, 1989, fate would whisk Blaze from the world leaving Lost John to finish the Outhouse project alone.  For years John single-handedly carried Blaze’s legacy by retailing the cassette out of his trunk around Austin’s clubs.",
