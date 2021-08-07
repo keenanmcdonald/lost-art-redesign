@@ -7,7 +7,8 @@ import Merch from './components/Merch'
 import About from './components/About'
 import Contact from './components/Contact'
 import {Route} from 'react-router-dom'
-import ProductPage from './components/ProductPage'
+import AlbumPage from './components/AlbumPage'
+import MerchProductPage from './components/MerchProductPage';
 import {withRouter} from 'react-router-dom'
 
 
@@ -60,11 +61,11 @@ class App extends React.Component {
     const routes = []
 
     for (let i = 0; i < this.state.albums.length; i++){
-      routes.push(<Route key={'album'+i} path={this.state.albums[i].path} render = {() => <ProductPage {...this.state.albums[i]}/>}/>)
+      routes.push(<Route key={'album'+i} path={this.state.albums[i].path} render = {() => <AlbumPage {...this.state.albums[i]}/>}/>)
     }
 
     for (let i = 0; i < this.state.merch.length; i++){
-      routes.push(<Route key={'merch'+i} path={this.state.merch[i].path} render = {() => <ProductPage {...this.state.merch[i]}/>}/>)
+      routes.push(<Route key={'merch'+i} path={this.state.merch[i].path} render = {() => <MerchProductPage {...this.state.merch[i]}/>}/>)
     }
 
 

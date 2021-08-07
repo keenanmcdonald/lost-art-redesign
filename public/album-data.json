@@ -61,14 +61,12 @@
         "purchase": [{
             "format": "VINYL",
             "price": "$25.00",
-            "button_id": "6THV4P956B9E6",
-            "disabled": true
+            "button_id": "6THV4P956B9E6"
         },{
             "format": "CD",
             "price": "$15.99",
             "button_id": "KHSC722J6FDEN"
         }],
-        "message": "Vinyl temporarily out of stock",
         "path": "/austinouthouse",
         "spotify": "20jfTvbCUwJjOAhPkeIv61",
         "code": "LAR1015V | EOE3"
@@ -179,6 +177,7 @@
         "title": "Duct Tape Messiah - Deluxe Edition",
         "artist": "",
         "cover": "duct-tape-deluxe-cover.jpg",
+        "tall": true,
         "description": ["The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes."],
         "quote": "",
         "quote_attribution": "",
@@ -194,24 +193,44 @@
     "merch": [
         {
             "title": "Blaze Tee",
-            "cover": "shirt1.jpg",
+            "image": "shirt1.jpg",
             "description": ["Officially Licensed Blaze Tees.\nExclusively from Lost Art Records.", "Iconic Blaze Image by C.P. Vaughn.\n100% Cotton Gildan Shirt."],
             "path": "/blazetee",
-            "purchase": [{
-                "format": "S",
-                "price": "$18.00",
-                "button_id": ""
-            },
-            {
-                "format": "M",
-                "price": "$18.00",
-                "button_id": ""
-            },
-            {
-                "format": "L",
-                "price": "$18.00",
-                "button_id": ""
-            }]
+            "no_shadow": true,
+            "purchase": {
+                "type": "dropdown",
+                "button_id": "YUGFXE9LN52MU",
+                "price": "$25.00",
+                "options": [
+                    {
+                        "name": "Small",
+                        "value": "S"
+                    },
+                    {
+                        "name": "Medium",
+                        "value": "M"
+                    },
+                    {
+                        "name": "Large",
+                        "value": "L"
+                    },
+                    {
+                        "name": "XLarge",
+                        "value": "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "BLAZE FOLEY: From Misfit to Legend",
+            "description" : ["English language version of the original German book published in memory of the late Blaze Foley, the legendary Texas singer-songwriter whose life ended in tragedy. Almost 30 years after his passing, his songs have lost none of their quality, charm, and relevance. The book is a collection of articles originally published elsewhere, essays commissioned specifically for the book and original text by the authors from interviews conducted with Blaze’s friends, companions, fellow musicians and people who knew him well. In addition to the collection of articles and essays, the book includes a comprehensive discography, numerous photographs, and samplings of Blaze's graphic artworks. A complete look at the history and legend of Blaze Foley.", "Free shipping Via USPS Media Mail. US Domestic Orders Only."],
+            "image": "blaze_book.jpg",
+            "tall": true,
+            "path": "/blaze-foley-misfit-to-legend",
+            "purchase": {
+                "button_id": "JS6REVMU3PRWS",
+                "price": "$25.00"
+            }
         }
     ],
     "about": [

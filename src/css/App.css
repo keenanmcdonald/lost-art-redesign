@@ -194,6 +194,10 @@ header{
   box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.4);
 }
 
+.cover.tall{
+  width: 60%;
+}
+
 h4.artist, h4.title {
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
@@ -259,6 +263,50 @@ section#contact:hover *{
   color: black;
   opacity: 0.8;
   text-decoration: underline;
+}
+
+.merch-page-main{
+  border-top: 2px solid black;
+  margin-top: 4px;
+  padding: 20px 2%;
+  border-bottom: 2px solid black;
+}
+
+.merch-page-image {
+  width: 100%;
+  box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.3);
+}
+
+.merch-page-purchase-button {
+  background-color: #8ad75e;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  transition: .2s;
+}
+
+.merch-page-purchase-button:hover {
+  cursor: pointer;
+  background-color: #79bf51;
+}
+
+.merch-option-dropdown {
+  width: 100%;
+  margin: 10px 0px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.no-shadow {
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 850px) {

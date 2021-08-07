@@ -5,7 +5,7 @@ function Albums(props){
     let albums = []
 
     for (let i = 0; i < props.albums.length; i++){
-        albums.push(<Album key={i} cover={props.albums[i].cover} title={props.albums[i].title} artist={props.albums[i].artist} path={props.albums[i].path}/>)
+        albums.push(<Album key={i} {...props.albums[i]}/>)
     }
 
     return(

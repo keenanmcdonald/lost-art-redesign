@@ -10,7 +10,7 @@ export default function Merch({merch}){
             </div>
             <div className='albums row no-gutters'>
                 {merch && merch.map((product, i) => (
-                    <Album key={i} cover={product.cover} title={product.title} path={product.path}/>
+                    <Album noShadow={product.no_shadow} key={i} cover={product.image} {...product}/>
                 ))}
             </div>
         </section>

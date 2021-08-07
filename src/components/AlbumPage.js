@@ -1,10 +1,10 @@
 import React, {useState, useEffect, useRef} from 'react'
-import '../css/ProductPage.css'
+import '../css/AlbumPage.css'
 import ReactHtmlParser from 'react-html-parser'
 import {isMobile} from 'react-device-detect'
 
 
-export default function ProductPage(props){
+export default function AlbumPage(props){
     const {
         purchase, 
         description, 
