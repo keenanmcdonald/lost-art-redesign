@@ -38,7 +38,7 @@ export default function MerchProductPage(props){
                                     ))}
                                 </select>
                                 <div className='purchase-button-container'>
-                                    <button type='submit' form={`paypal`} className={`merch-page-purchase-button`}>Purchase with Paypal</button>
+                                    <button type='submit' form={`paypal`} className={`merch-page-purchase-button`}>Proceed to Purchase</button>
                                 </div>
                             </form>
                         ) : (
@@ -46,7 +46,7 @@ export default function MerchProductPage(props){
                                 <input type="hidden" name="cmd" value="_s-xclick"/>
                                 <input type="hidden" name="hosted_button_id" value={purchase.button_id}/>
                                 <div className='purchase-button-container'>
-                                    <button type='submit' form={`paypal`} className={`merch-page-purchase-button`}>Purchase with Paypal</button>
+                                    <button type='submit' form={`paypal`} className={`merch-page-purchase-button`}>Proceed to Purchase</button>
                                 </div>
                             </form>
                         )
