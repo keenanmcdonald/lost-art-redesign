@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4f72149.chunk.css",
-    "main.js": "/static/js/main.976a570f.chunk.js",
-    "main.js.map": "/static/js/main.976a570f.chunk.js.map",
+    "main.css": "/static/css/main.810952f3.chunk.css",
+    "main.js": "/static/js/main.23fdf406.chunk.js",
+    "main.js.map": "/static/js/main.23fdf406.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aad2254c.js",
     "runtime-main.js.map": "/static/js/runtime-main.aad2254c.js.map",
-    "static/js/2.2044bacb.chunk.js": "/static/js/2.2044bacb.chunk.js",
-    "static/js/2.2044bacb.chunk.js.map": "/static/js/2.2044bacb.chunk.js.map",
+    "static/js/2.4f22fe4e.chunk.js": "/static/js/2.4f22fe4e.chunk.js",
+    "static/js/2.4f22fe4e.chunk.js.map": "/static/js/2.4f22fe4e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2d3a2de1c38a2e5a12bffb042a72bfeb.js": "/precache-manifest.2d3a2de1c38a2e5a12bffb042a72bfeb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c4f72149.chunk.css.map": "/static/css/main.c4f72149.chunk.css.map",
-    "static/js/2.2044bacb.chunk.js.LICENSE.txt": "/static/js/2.2044bacb.chunk.js.LICENSE.txt",
+    "precache-manifest.0accd781eb354cd2f282e1bfa5ddb97e.js": "/precache-manifest.0accd781eb354cd2f282e1bfa5ddb97e.js",
+    "static/css/main.810952f3.chunk.css.map": "/static/css/main.810952f3.chunk.css.map",
+    "static/js/2.4f22fe4e.chunk.js.LICENSE.txt": "/static/js/2.4f22fe4e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/OldGrowth-Regular.24df9e94.otf",
     "static/media/austin-outhouse-cover.jpg": "/static/media/austin-outhouse-cover.0791c660.jpg",
     "static/media/bill-neely-cover.jpg": "/static/media/bill-neely-cover.749d69d1.jpg",
+    "static/media/blaze_book.jpg": "/static/media/blaze_book.0e410585.jpg",
     "static/media/clay-pigeons-cover.jpg": "/static/media/clay-pigeons-cover.9962b42e.jpg",
     "static/media/cold-cold-world-cover.png": "/static/media/cold-cold-world-cover.fb49cd13.png",
     "static/media/duct-tape-deluxe-cover.jpg": "/static/media/duct-tape-deluxe-cover.cfc53d00.jpg",
@@ -26,12 +26,13 @@
     "static/media/muscle-shoals-cover.jpg": "/static/media/muscle-shoals-cover.3c242375.jpg",
     "static/media/outhouse-sticker.png": "/static/media/outhouse-sticker.d04f8733.png",
     "static/media/oval-room-cover.jpg": "/static/media/oval-room-cover.a91fc04c.jpg",
+    "static/media/shirt1.jpg": "/static/media/shirt1.4a636aab.jpg",
     "static/media/sittin-by-the-road-cover.jpg": "/static/media/sittin-by-the-road-cover.2b6741e4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aad2254c.js",
-    "static/js/2.2044bacb.chunk.js",
-    "static/css/main.c4f72149.chunk.css",
-    "static/js/main.976a570f.chunk.js"
+    "static/js/2.4f22fe4e.chunk.js",
+    "static/css/main.810952f3.chunk.css",
+    "static/js/main.23fdf406.chunk.js"
   ]
 }
