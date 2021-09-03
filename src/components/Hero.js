@@ -12,11 +12,7 @@ function Hero(props){
                 <div className='hero-text'>
                     <h1 className='hero-artist'>blaze foley</h1> 
                     <h2 className='hero-title'>live at the austin outhouse</h2>
-                    <img 
-                        className='sticker' 
-                        alt='record store day 2020 limited release: blaze foleys outhouse recordings first time on vinyl *includes bonus reproduction copy of blazes rare zephyr records 45rpm' 
-                        src={require('../images/outhouse-sticker.png')}
-                    />
+                    <h3 className='hero-subtitle'>available on vinyl for the first time</h3>
                 </div>
             </div>
         </section>

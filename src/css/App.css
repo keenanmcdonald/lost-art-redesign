@@ -166,11 +166,13 @@ header{
 
 .hero-text{
   padding: 40px;
-
 }
 
-.sticker{
-  height: 140px;
+.hero-subtitle {
+  font-family: OldGrowth;
+  margin-top: 0px;
+  color: rgb(189, 189, 189);
+  font-size: 22px;
 }
 
 /*Albums*/
@@ -309,6 +311,8 @@ section#contact:hover *{
   box-shadow: none;
 }
 
+
+
 @media only screen and (max-width: 850px) {
 
   .nav-about{
@@ -322,8 +326,6 @@ section#contact:hover *{
   h2{
     font-size: 28px;
   }
-
-
 }
 
 @media only screen and (max-width: 650px) {
@@ -362,9 +364,9 @@ section#contact:hover *{
     font-size: 20px;
     margin-bottom: 90px;
   }
-  .sticker{
-    height: 110px;
-    margin-left: -20px;
+
+  h3.hero-subtitle{
+    font-size: 16px;
   }
 
   /*albums*/
@@ -390,11 +392,5 @@ section#contact:hover *{
 
   ul.contact-info{
     padding: 6px 0;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .sticker{
-    height: 180px;
   }
 }
