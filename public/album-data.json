@@ -217,6 +217,10 @@
                     {
                         "name": "XLarge",
                         "value": "XL"
+                    },
+                    {
+                        "name" : "XXLarge",
+                        "value": "XXL"
                     }
                 ]
             }
