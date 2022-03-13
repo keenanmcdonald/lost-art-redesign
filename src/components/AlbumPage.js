@@ -34,6 +34,8 @@ export default function AlbumPage(props){
         })
     }, [description])
 
+    console.log({notes})
+
     return (
         <section className='album-page'>
             <div className='album-page-main row'>
@@ -73,10 +75,16 @@ export default function AlbumPage(props){
                     {description.map((paragraph, i) => (
                         <p key={i} className='album-page-description'>{paragraph}</p>
                     ))}
+                    <div className='notes-container'>
+                        {Array.isArray(notes) ?
+                            notes.map(note =>  <p className='note'>{note}</p>) : 
+                            <p className='note'>{notes}</p>
+                        }
+                    </div>
                 </div>
                 {spotify ? 
                     <div className='album-page-spotify col-sm-6'>
-                        <iframe title='spotify' src={`https://open.spotify.com/embed/album/${spotify}`} width={spotifyDimensions.width} height={spotifyDimensions.width} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe title='spotify' src={`https://open.spotify.com/embed/album/${spotify}`} width={spotifyDimensions.width} height={spotifyDimensions.height} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 : (tracklist ?
                     <div className='album-page-tracklist-container col-sm-6'>
@@ -91,7 +99,6 @@ export default function AlbumPage(props){
                     </div>
                 : '')}
             </div>
-            <p className='notes'>{notes}</p>
             {video ? 
                 <div className='album-page-video-container'>
                     {ReactHtmlParser(video)}

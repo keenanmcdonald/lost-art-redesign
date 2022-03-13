@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "153b991b6ddeb4c70ad71470976b58c7",
+    "revision": "90e9710baa30ad1b49b880f9cc03190b",
     "url": "/index.html"
   },
   {
-    "revision": "c4c3ef1ad42340988ac1",
-    "url": "/static/css/main.810952f3.chunk.css"
+    "revision": "c2cd1c6617468b47925f",
+    "url": "/static/css/main.5899eef9.chunk.css"
   },
   {
     "revision": "cdda1bf6f48f60bee158",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4f22fe4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4c3ef1ad42340988ac1",
-    "url": "/static/js/main.23fdf406.chunk.js"
+    "revision": "c2cd1c6617468b47925f",
+    "url": "/static/js/main.23a0250d.chunk.js"
   },
   {
     "revision": "0d667b7a7971d70a81c3",
@@ -40,8 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/OldGrowth-Regular.24df9e94.otf"
   },
   {
-    "revision": "0791c66044b209ff9441d649e62111d1",
-    "url": "/static/media/austin-outhouse-cover.0791c660.jpg"
+    "revision": "a7991bd85c039ac2a5a7efc8c0303c12",
+    "url": "/static/media/austin-outhouse-cover.a7991bd8.png"
+  },
+  {
+    "revision": "d65294f85a41de266954d36b4770cb76",
+    "url": "/static/media/austin-outhouse-cover.d65294f8.jpg"
   },
   {
     "revision": "749d69d12332c24b14815340dcc4cfc2",
@@ -86,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c2423751a4f1347dd44fadb113c7084",
     "url": "/static/media/muscle-shoals-cover.3c242375.jpg"
-  },
-  {
-    "revision": "d04f8733c56b63aa8b42513c5456b4fb",
-    "url": "/static/media/outhouse-sticker.d04f8733.png"
   },
   {
     "revision": "a91fc04c1084b1e4d534a5dad9407ead",

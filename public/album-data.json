@@ -1,6 +1,27 @@
 {
     "albums": 
     [{
+        "title": "I Got The Blues",
+        "artist": "Cody Hubach",
+        "cover": "cody.jpg",
+        "description": ["Cody Hubach was the real deal. The re-release of Cody’s 1999 recording, I Got The Blues, reveals the power and talent of one of Austin’s revered renegade songwriters. A gifted singer, songwriter and talented guitarist, Cody captivated audiences with heartfelt honesty. Long before “Americana” became a musical genre, Cody’s music intermingled the roots of country, folk and blues.", "From the mid-60’s through the 90’s Cody regularly occupied the stages of the honkytonks and clubs at the heart of Austin’s music scene and throughout Central Texas. Cody held court at iconic venues including Threadgills, the Austin Outhouse, Spellmans, the Split Rail, the One Knight, Checkered Flag, AusTex Lounge, Giddy Ups and many more. His circle of outlaw compadres was filled by Blaze Foley, Jubal Clark and Calvin Russell.", "The tracks here were recorded in 1999 in Driftwood, Texas by John Casner shortly after Cody was diagnosed with cancer. They never benefited from wide distribution. Lost Art Records is excited to share this chapter of Austin’s musical legacy and proud to showcase the power, spirit and honesty of Cody Hubach."],
+        "notes": ["Personnel:",
+            "Cody Hubach, Vocals, Guitar",
+            "John Meadows, Banjo, Vocals",
+            "Boomer Norman, Guitar",
+            "Dave Kembro, Bass",
+            "Lost John Casner, Keyboards",
+            "Recorded & Mixed by: John Casner, Sum Studios, Driftwood, Texas 1999"
+        ],
+        "purchase": [{
+            "format": "CD",
+            "price": "$18.00",
+            "button_id": ""
+            }],
+        "path": "/igottheblues",
+        "code": "",
+        "spotify": "3EiI2SMdPLGoaackZbbAP8"
+    }, {
         "title": "Clay Pigeons",
         "artist": "Blaze Foley",
         "cover": "clay-pigeons-cover.jpg",

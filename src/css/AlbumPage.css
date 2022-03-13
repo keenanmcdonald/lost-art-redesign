@@ -116,10 +116,14 @@ button.price, input.price{
 }
 
 
-.notes{
+.notes-container{
+    margin-top: 20px;
+}
+
+.note{
     font-size: 12px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
 .album-page-video-container{
