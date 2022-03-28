@@ -18,7 +18,8 @@ export default function AlbumPage(props){
         quote_attribution, 
         spotify, 
         notes, 
-        video
+        video,
+        links
     } = props
 
     const [spotifyDimensions, setSpotifyDimensions] = useState({
@@ -58,7 +59,12 @@ export default function AlbumPage(props){
                             </form>
                         </div>
                         ))}
-                    </div> 
+                    </div>
+                    {links && (
+                        <div className='album-page-links-container'>
+                            {links.map(link => <a className='album-page-link' href={link.href} target="_blank" rel="noopener noreferrer">{link.text}</a>)}
+                        </div>
+                    )}
                     <p className='message'>{message}</p>
                     {quote ?
                     <div className='quote-container'>

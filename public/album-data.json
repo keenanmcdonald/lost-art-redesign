@@ -13,6 +13,14 @@
             "Lost John Casner, Keyboards",
             "Recorded & Mixed by: John Casner, Sum Studios, Driftwood, Texas 1999"
         ],
+        "links": [
+            {"text": "More about 'I Got The Blues", "href": "/cody-onesheet.pdf"},
+            {"text": "Cody Hubach: The Real Deal", "href": "/cody-bio.pdf"},
+            {"text": "Video: Skid Row Rodeo", "href": "https://youtu.be/zqO9BImCyMU"},
+            {"text": "Video: Livin’ With The Animals", "href": "https://youtu.be/KNLlPp37he4"},
+            {"text": "Video: Black Cat Blues", "href": "https://youtu.be/Z8ha3Nd_n3E"},
+            {"text": "Video: I Got The Blues", "href": "https://youtu.be/Gy16hNDKErk"}
+        ],
         "purchase": [{
             "format": "CD",
             "price": "$12.99",

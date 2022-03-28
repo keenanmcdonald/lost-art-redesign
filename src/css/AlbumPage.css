@@ -167,6 +167,13 @@ li.album-page-track{
     padding-left: 4px;
 }
 
+.album-page-link{
+    display: block;
+}
+.album-page-links-container{
+    margin-top: 10px;
+}
+
 
 @media only screen and (max-width: 850px) {
     h1.album-page-artist{
