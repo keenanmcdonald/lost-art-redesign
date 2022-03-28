@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90e9710baa30ad1b49b880f9cc03190b",
+    "revision": "56d9dc4dd724b4450846093e189f3732",
     "url": "/index.html"
   },
   {
-    "revision": "c2cd1c6617468b47925f",
-    "url": "/static/css/main.5899eef9.chunk.css"
+    "revision": "441c9d029223ce67ec16",
+    "url": "/static/css/main.58d886ae.chunk.css"
   },
   {
     "revision": "cdda1bf6f48f60bee158",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4f22fe4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2cd1c6617468b47925f",
-    "url": "/static/js/main.23a0250d.chunk.js"
+    "revision": "441c9d029223ce67ec16",
+    "url": "/static/js/main.c93227cb.chunk.js"
   },
   {
     "revision": "0d667b7a7971d70a81c3",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/OldGrowth-Regular.24df9e94.otf"
   },
   {
+    "revision": "ab0b7da039b7da3b74427f95bde8d5c8",
+    "url": "/static/media/Serat-Ultra.ab0b7da0.ttf"
+  },
+  {
     "revision": "a7991bd85c039ac2a5a7efc8c0303c12",
     "url": "/static/media/austin-outhouse-cover.a7991bd8.png"
   },
@@ -60,8 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/clay-pigeons-cover.9962b42e.jpg"
   },
   {
+    "revision": "7e8499292276061438616cc228de806b",
+    "url": "/static/media/cody-bg.7e849929.png"
+  },
+  {
+    "revision": "f4e436ccbe52ea68e8022a26587d2bf7",
+    "url": "/static/media/cody-cutout.f4e436cc.png"
+  },
+  {
+    "revision": "cd907b612446daad426604b60e0b8ac1",
+    "url": "/static/media/cody.cd907b61.jpg"
+  },
+  {
     "revision": "fb49cd13a53e50536a46ac95efb92962",
     "url": "/static/media/cold-cold-world-cover.fb49cd13.png"
+  },
+  {
+    "revision": "78f1f1eccbe01ac30d234b3dec551963",
+    "url": "/static/media/compacta-bt.78f1f1ec.ttf"
   },
   {
     "revision": "cfc53d00f61f9379044d0f0c2c66f110",
@@ -70,14 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e2077db1156a5f6a6c7ad7d28212a697",
     "url": "/static/media/duct-tape-messiah-cover.e2077db1.jpg"
-  },
-  {
-    "revision": "3e04c7c0ebc27e785ff203e545fd17d1",
-    "url": "/static/media/foley-slim.3e04c7c0.jpg"
-  },
-  {
-    "revision": "d13b289fd759e545851fdc0ce0e9beb8",
-    "url": "/static/media/foley.d13b289f.jpg"
   },
   {
     "revision": "207af3c1d03f1053e380213f3be83453",

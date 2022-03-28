@@ -34,8 +34,6 @@ export default function AlbumPage(props){
         })
     }, [description])
 
-    console.log({notes})
-
     return (
         <section className='album-page'>
             <div className='album-page-main row'>
