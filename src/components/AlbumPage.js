@@ -21,6 +21,7 @@ export default function AlbumPage(props){
         video,
         links
     } = props
+    console.log({message, purchase})
 
     const [spotifyDimensions, setSpotifyDimensions] = useState({
         width: 300,

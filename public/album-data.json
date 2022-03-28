@@ -69,12 +69,15 @@
         "purchase": [{
             "format": "Vinyl",
             "price": "$20.00",
-            "button_id": "2LCJ64SQDDQWN"
+            "button_id": "2LCJ64SQDDQWN",
+            "disabled": true
         }, {
             "format": "CD",
             "price": "$15.99",
-            "button_id": "CGBR8D8NF4KZQ"
+            "button_id": "CGBR8D8NF4KZQ",
+            "disabled": true
         }],
+        "message": "Sold Out",
         "path": "/muscleshoals",
         "spotify": "0zBGDWj6N9CvqfhZSTwy27",
         "code": "LAR 1021 & 1021V | EOA2"
