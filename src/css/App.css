@@ -19,15 +19,6 @@ outhouse orange: #FEC04F
   font-family: OldGrowth;
   src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
 }
-@font-face {
-  font-family: compacta;
-  src: url("../fonts/compacta-bt/compacta-bt.ttf") format("opentype");
-}
-@font-face {
-  font-family: serat;
-  src: url("../fonts/serat/Serat-Ultra.ttf") format("opentype");
-}
-
 
 * {
   transition-duration: 0.3s;
@@ -43,17 +34,15 @@ body{
 }
 
 h1{
-  font-family: compacta;
-  color: #FAF307;
-  margin-bottom: 0px;
-  font-size: 160px;
+  font-family: OldGrowth;
+  color: white;
+  margin-bottom: 40px;
 }
 
 h2{
-  font-family: serat;
-  color: #8BD1F1;
+  font-family: OldGrowth;
+  color: #FEC04F;
   margin-bottom: 50px;
-  font-size: 60px
 }
 
 h3{
@@ -152,11 +141,8 @@ header{
 
 /*Hero*/
 #hero{
-  background-image: url("../images/cody-bg.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  height: 600px;
+  background-color: black;
+  height: 500px;
   width: 100vw;
   margin: 0;
 }
@@ -166,14 +152,16 @@ header{
 }
 
 .photo-container{
-  height: 600px;
+  height: 500px;
 }
 
 .blaze-photo{
-  height: 560px;
-  position: relative;
-  float: right;
-  bottom: -40px;
+  height: 500px;
+}
+
+.blaze-photo-slim{
+  display: none;
+  height: 500px;
 }
 
 .hero-text{
@@ -184,7 +172,7 @@ header{
   font-family: OldGrowth;
   margin-top: 0px;
   color: rgb(189, 189, 189);
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /*Albums*/
@@ -322,37 +310,21 @@ section#contact:hover *{
 .no-shadow {
   box-shadow: none;
 }
-.hero-text{
-  margin-left: 20%;
-}
 
 
-@media only screen and (max-width: 1300px) {
-  .hero-text{
-    margin-left: 20px;
+
+@media only screen and (max-width: 850px) {
+
+  .nav-about{
+    margin: 0px 4%;
   }
-  #hero{
-    height: 500px;
-  }
-  .photo-container{
-    height: 500px;
+
+  h1{
+    font-size: 34px;
   }
   
-  .blaze-photo{
-    height: 480px;
-    float: right;
-    position: relative;
-    bottom: -20px;
-  }
-  h1.hero-artist {
-    font-size: 120px;
-  }
-  h2.hero-title{
-    font-size: 38px;
-    margin-bottom: 20px;
-  }
-  h3.hero-subtitle{
-    font-size: 14px;
+  h2{
+    font-size: 28px;
   }
 }
 
@@ -373,15 +345,28 @@ section#contact:hover *{
 
   /*hero*/
   .blaze-photo{
-    left: 100px;
+    display: none;
   }
-
+  .blaze-photo-slim{
+    display: inline-block;
+  }
+  .hero-text{
+    padding: 30px 10px;
+  }
   h1.hero-artist{
-    font-size:90px;
+    padding-left: 46px;
+    font-size: 24px;
+    margin-bottom: 90px;
   }
   
   h2.hero-title{
-    font-size: 26px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 90px;
+  }
+
+  h3.hero-subtitle{
+    font-size: 16px;
   }
 
   /*albums*/
@@ -408,17 +393,4 @@ section#contact:hover *{
   ul.contact-info{
     padding: 6px 0;
   }
-  .hero-text{
-    margin-left: 0px;
-    margin-top: 60px;
-    padding: 20px;
-  }
-
-}
-
-@media only screen and (max-width: 450px) {
-  .blaze-photo{
-    left: 140px;
-  }
-
 }
