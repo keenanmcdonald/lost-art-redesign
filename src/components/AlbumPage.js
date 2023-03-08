@@ -19,7 +19,8 @@ export default function AlbumPage(props){
         spotify, 
         notes, 
         video,
-        links
+        links,
+        disclaimer
     } = props
     console.log({message, purchase})
 
@@ -46,6 +47,7 @@ export default function AlbumPage(props){
                     {artist && <h1 className='album-page-artist'>{artist.toUpperCase()}</h1>}
                     <h2 className='album-page-title'>{title}</h2>
                     <p className='album-page-code'>{code}</p>
+                    {disclaimer && <p className='album-page-disclaimer'>{disclaimer}</p>}
                     <div className='album-page-purchase-container'>
                         <p className='album-page-purchase'>Purchase</p>
                         {purchase.map((option, i) => (

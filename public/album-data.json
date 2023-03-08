@@ -93,7 +93,8 @@
         "purchase": [{
             "format": "VINYL",
             "price": "$25.00",
-            "button_id": "6THV4P956B9E6"
+            "button_id": "6THV4P956B9E6",
+            "disabled": true
         },{
             "format": "CD",
             "price": "$15.99",
@@ -101,7 +102,8 @@
         }],
         "path": "/austinouthouse",
         "spotify": "20jfTvbCUwJjOAhPkeIv61",
-        "code": "LAR1015V | EOE3"
+        "code": "LAR1015V | EOE3",
+        "disclaimer": "Vinyl currently out of stock"
     }, {
         "title": "Sittin' by the Road",
         "artist": "Blaze Foley",
