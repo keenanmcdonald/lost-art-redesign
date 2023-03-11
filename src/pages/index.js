@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import Albums from "../components/Albums"
 import Merch from "../components/Merch"
 import About from "../components/About"
+import Head from "next/head"
 import { albumData, merchData } from "../helpers/data"
 
 const aboutParagraphs = [
@@ -15,6 +16,10 @@ const aboutParagraphs = [
 export default function Homepage(props) {
   return (
     <main>
+      <Head>
+        <title>Lost Art Records</title>
+      </Head>
+
       <Hero />
       <Albums albums={albumData} />
       <Merch merch={merchData} />

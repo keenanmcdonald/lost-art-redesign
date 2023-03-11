@@ -9,7 +9,7 @@ function Album(props) {
       className="album-container col-6 col-lg-4"
     >
       <Link
-        href={`/album/${props.path}`}
+        href={`${props.baseRoute}/${props.path}`}
         style={{
           display: "flex",
           flexDirection: "column",

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react"
 import ReactHtmlParser from "react-html-parser"
 import { isMobile } from "react-device-detect"
 import Image from "next/image"
-import { useRouter } from "next/router"
+import Head from "next/head"
 import { albumData } from "../../helpers/data"
 
 export async function getStaticPaths() {
@@ -58,6 +58,9 @@ export default function AlbumPage({
 
   return (
     <main className="album-page">
+      <Head>
+        <title>{`${artist} - ${title}`}</title>
+      </Head>
       <div className="album-page-main row">
         <div className="col-sm-12 col-md-6">
           <Image

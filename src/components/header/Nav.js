@@ -4,7 +4,7 @@ import Link from "next/link"
 function Nav() {
   return (
     <ul className="nav-list">
-      <div className="nav-list-item" />
+      <li className="nav-list-item" />
       <li className="nav-list-item">
         <Link className="nav-link" href="/#releases">
           releases
@@ -25,7 +25,7 @@ function Nav() {
           contact
         </Link>
       </li>
-      <div className="nav-list-item" />
+      <li className="nav-list-item" />
     </ul>
   )
 }

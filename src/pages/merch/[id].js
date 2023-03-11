@@ -1,10 +1,31 @@
-import React from "react"
-import "../css/AlbumPage.css"
+import { merchData } from "../../helpers/data"
 import Image from "next/image"
 
-export default function MerchProductPage(props) {
-  const { purchase, description, title, image, notes, no_shadow } = props
+export async function getStaticPaths() {
+  const paths = merchData.map((item) => ({
+    params: {
+      id: item.path,
+    },
+  }))
+  return {
+    paths,
+    fallback: false,
+  }
+}
 
+export async function getStaticProps({ params }) {
+  const props = merchData.find((item) => item.path === params.id)
+  return { props }
+}
+
+export default function MerchProductPage({
+  purchase,
+  description,
+  title,
+  image,
+  notes,
+  no_shadow,
+}) {
   return (
     <section className="album-page">
       <div className="merch-page-main row">
@@ -12,6 +33,9 @@ export default function MerchProductPage(props) {
           <Image
             className={`merch-page-image ${no_shadow ? "no-shadow" : ""}`}
             alt={`${title}`}
+            width={500}
+            height={500}
+            layout="responsive"
             src={`/images/covers/${image}`}
           />
         </div>

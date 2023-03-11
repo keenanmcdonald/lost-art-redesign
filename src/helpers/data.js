@@ -6,7 +6,7 @@ export const merchData = [
       "Officially Licensed Blaze Tees.\nExclusively from Lost Art Records.",
       "Iconic Blaze Image by C.P. Vaughn.\n100% Cotton Gildan Shirt.",
     ],
-    path: "/blazetee",
+    path: "blazetee",
     no_shadow: true,
     purchase: {
       type: "dropdown",
@@ -270,7 +270,7 @@ export const albumData = [
         button_id: "LJ2LFFVJP5WGU",
       },
     ],
-    path: "/ducttapemessiah",
+    path: "ducttapemessiah",
     spotify: "5fGFITqMvi1G0lQBplF4Ci",
     code: "LAR 1021",
   },
