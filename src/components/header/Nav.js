@@ -1,35 +1,33 @@
-import React from 'react'
-import {withRouter} from 'react-router-dom'
+import React from "react"
+import Link from "next/link"
 
-function Nav(props){
-
-    return (
-        <ul className='nav'>
-            <li>
-                <button onClick={()=> {
-                    props.history.push('/')
-                    props.setScrollTo('releases')
-                }}>releases</button>
-            </li>
-            <li>
-                <button onClick={() => {
-                props.history.push('/')
-                props.setScrollTo('merch')
-                }}>merch</button>
-            </li>
-            <li className='nav-about'><button onClick={()=> {
-                    props.history.push('/')
-                    props.setScrollTo('about')
-                }}>about</button>
-            </li>
-            <li><button onClick={()=> {
-                    props.history.push('/')
-                    props.setScrollTo('contact')
-                }}>contact</button>
-            </li>
-        </ul>
-    )
+function Nav() {
+  return (
+    <ul className="nav-list">
+      <div className="nav-list-item" />
+      <li className="nav-list-item">
+        <Link className="nav-link" href="#releases">
+          releases
+        </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link className="nav-link" href="#merch">
+          merch
+        </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link className="nav-link" href="#about">
+          about
+        </Link>
+      </li>
+      <li className="nav-list-item">
+        <Link className="nav-link" href="#contact">
+          contact
+        </Link>
+      </li>
+      <div className="nav-list-item" />
+    </ul>
+  )
 }
 
-
-export default withRouter(Nav)
+export default Nav

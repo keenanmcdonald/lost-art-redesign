@@ -1,0 +1,601 @@
+/*
+background: #EEECE1
+outhouse orange: #FEC04F
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;  
+}
+
+@font-face {
+  font-family: OakwoodClean;
+  src: url("../fonts/oakwood/Oakwood-Clean.otf") format("opentype");
+}
+@font-face {
+  font-family: OakwoodRough;
+  src: url("../fonts/oakwood/Oakwood-Rough.otf") format("opentype");
+}
+@font-face {
+  font-family: OakwoodRoughShadow;
+  src: url("../fonts/oakwood/Oakwood-RoughShadow.otf") format("opentype");
+}
+@font-face {
+  font-family: OldGrowth;
+  src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
+}
+
+* {
+  transition-duration: 0.3s;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #eeece1;
+}
+
+h1 {
+  font-family: OldGrowth;
+  color: white;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: OldGrowth;
+  color: #fec04f;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: OakwoodRoughShadow;
+  margin-top: 20px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.section-title-container {
+  text-align: center;
+}
+
+p {
+  font-family: "Varela Round", sans-serif;
+}
+
+/*Header*/
+.cart-container {
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+}
+
+.cart {
+  height: 40px;
+}
+
+/*Nav*/
+.nav {
+  width: 50%;
+  min-width: 450px;
+  margin-bottom: 4px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav button {
+  color: black;
+  font-family: OakwoodClean;
+  font-size: 26px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.nav button:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*Hero*/
+#hero {
+  background-color: black;
+  height: 500px;
+  width: 100vw;
+  margin: 0;
+}
+
+#hero:hover {
+  cursor: pointer;
+}
+
+.photo-container {
+  height: 500px;
+}
+
+.blaze-photo {
+  height: 500px;
+}
+
+.blaze-photo-slim {
+  display: none;
+  height: 500px;
+}
+
+.hero-text {
+  padding: 40px;
+}
+
+.hero-subtitle {
+  font-family: OldGrowth;
+  margin-top: 0px;
+  color: rgb(189, 189, 189);
+  font-size: 22px;
+}
+
+/*Albums*/
+
+.album {
+  padding: 10px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.album:hover h4 {
+  text-decoration: underline;
+}
+
+.album:hover {
+  cursor: pointer;
+}
+
+.cover {
+  width: 80%;
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+.cover.tall {
+  width: 60%;
+}
+
+h4.artist,
+h4.title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  margin: 2px;
+}
+
+h4.artist {
+  font-weight: 900;
+}
+
+.album-text-container {
+  display: inline-block;
+  width: 60%;
+  border-top: 2px black solid;
+  margin-top: 12px;
+  padding-top: 8px;
+}
+
+/*about*/
+.about-text-body {
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.about-photo {
+  width: 50%;
+  float: right;
+}
+
+/*contact*/
+section#contact {
+  padding: 20px 30px;
+  padding-bottom: 0px;
+}
+
+img.contact-background-logo {
+  float: right;
+  width: 180px;
+  opacity: 0.5;
+}
+
+ul.contact-info {
+  padding: 12px 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+section#contact:hover * {
+  opacity: 0.9;
+}
+
+.contact-info li {
+  display: block;
+  font-family: "Varela Round", sans-serif;
+  margin-bottom: 8px;
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+.contact-info a {
+  color: black;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.merch-page-main {
+  border-top: 2px solid black;
+  margin-top: 4px;
+  padding: 20px 2%;
+  border-bottom: 2px solid black;
+}
+
+.merch-page-image {
+  width: 100%;
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.merch-page-purchase-button {
+  background-color: #8ad75e;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.merch-page-purchase-button:hover {
+  cursor: pointer;
+  background-color: #79bf51;
+}
+
+.merch-option-dropdown {
+  width: 100%;
+  margin: 10px 0px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list-item {
+  margin: 10px, 0px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-family: OakwoodClean;
+  font-size: 22px;
+}
+
+.nav-link:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-about {
+    margin: 0px 4%;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /*nav*/
+  .nav-container {
+    display: none;
+  }
+
+  /*hero*/
+  .blaze-photo {
+    display: none;
+  }
+  .blaze-photo-slim {
+    display: inline-block;
+  }
+  .hero-text {
+    padding: 30px 10px;
+  }
+  h1.hero-artist {
+    padding-left: 46px;
+    font-size: 24px;
+    margin-bottom: 90px;
+  }
+
+  h2.hero-title {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 90px;
+  }
+
+  h3.hero-subtitle {
+    font-size: 16px;
+  }
+
+  /*albums*/
+  h4.artist,
+  h4.title {
+    font-size: 14px;
+  }
+
+  /*contact*/
+
+  img.contact-background-logo {
+    width: 100px;
+  }
+
+  .contact-info li {
+    margin-bottom: 0;
+    font-size: 8px;
+  }
+
+  section#contact {
+    padding: 20px 14px;
+    padding-bottom: 4px;
+  }
+
+  ul.contact-info {
+    padding: 6px 0;
+  }
+}
+
+/* Album page */
+
+.album-page {
+  padding: 0 10%;
+}
+
+.album-page-main {
+  border-top: 2px solid black;
+  margin-top: 4px;
+  padding: 20px 2%;
+}
+
+img.album-page-cover {
+  width: 100%;
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+h1.album-page-artist,
+h2.album-page-title {
+  color: black;
+  font-family: cooper-black-std, sans-serif;
+}
+
+h1.album-page-artist {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2.album-page-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p.album-page-code {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.title-purchase-container {
+  position: relative;
+}
+
+.album-page-description-tracklist-container {
+  padding: 20px 2%;
+  padding-bottom: 0;
+  border-top: 2px solid black;
+}
+
+.album-page-spotify {
+  padding: 0 5%;
+}
+
+.quote-container {
+  text-align: center;
+  padding: 0px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.quote,
+.quote-attribution {
+  font-weight: 900;
+  font-size: 14px;
+  margin: 0px;
+}
+.quote {
+  font-style: italic;
+}
+
+/*purchase*/
+.album-page-purchase {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.purchase-form-container {
+  width: 80px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+button.album-page-purchase-button,
+input.album-page-purchase-button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  width: 80px;
+  display: inline-block;
+}
+
+button.album-page-purchase-button.disabled {
+  background-color: rgb(85, 85, 85);
+  border-color: rgb(85, 85, 85);
+}
+
+button.price,
+input.price {
+  display: none;
+  background-color: rgb(85, 85, 85);
+  border-color: rgb(85, 85, 85);
+  color: #eeece1;
+}
+.purchase-button-container:hover button.format {
+  display: none;
+}
+
+.purchase-button-container:hover button.price {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.purchase-button-container:hover button.format.disabled {
+  display: inline-block;
+}
+.purchase-button-container:hover button.price.disabled {
+  display: none;
+}
+
+.notes-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.album-page-video-container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 20px;
+  padding-bottom: 51%;
+}
+
+.album-page-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.message {
+  color: rgb(201, 0, 0);
+}
+
+/*tracklist*/
+
+.album-page-tracklist-title-container {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 14px;
+}
+
+h5.album-page-tracklist-title {
+  font-family: OldGrowth;
+  font-size: 14px;
+}
+
+li.album-page-track {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 8px;
+  padding-left: 4px;
+}
+
+.album-page-link {
+  display: block;
+}
+.album-page-links-container {
+  margin-top: 10px;
+}
+
+p.album-page-disclaimer {
+  font-weight: 900 !important;
+  font-size: 18px;
+  color: rgb(201, 0, 0);
+}
+
+@media only screen and (max-width: 850px) {
+  h1.album-page-artist {
+    font-size: 32px;
+    margin-bottom: 6px;
+  }
+
+  h2.album-page-title {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+
+  p.album-page-code {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .quote-container {
+    margin-top: 30px;
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  img.album-page-cover {
+    margin-bottom: 6px;
+  }
+}
