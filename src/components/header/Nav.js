@@ -6,22 +6,22 @@ function Nav() {
     <ul className="nav-list">
       <div className="nav-list-item" />
       <li className="nav-list-item">
-        <Link className="nav-link" href="#releases">
+        <Link className="nav-link" href="/#releases">
           releases
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link className="nav-link" href="#merch">
+        <Link className="nav-link" href="/#merch">
           merch
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link className="nav-link" href="#about">
+        <Link className="nav-link" href="/#about">
           about
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link className="nav-link" href="#contact">
+        <Link className="nav-link" href="/#contact">
           contact
         </Link>
       </li>

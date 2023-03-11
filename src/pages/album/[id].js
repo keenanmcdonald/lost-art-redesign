@@ -60,11 +60,14 @@ export default function AlbumPage({
     <main className="album-page">
       <div className="album-page-main row">
         <div className="col-sm-12 col-md-6">
-          {/* <Image
+          <Image
             className="album-page-cover"
             alt={`${title} cover`}
+            width={500}
+            height={500}
+            layout="responsive"
             src={`/images/covers/${cover}`}
-          /> */}
+          />
         </div>
         <div className="title-purchase-container col-sm-12 col-md-6">
           {artist && (
