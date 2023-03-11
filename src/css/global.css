@@ -37,6 +37,10 @@ a {
   font-family: OldGrowth;
   src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
 }
+@font-face {
+  font-family: cooper-black-std;
+  src: url("../fonts/cooper-black-std/cooper-black-std.ttf") format("truetype");
+}
 
 * {
   transition-duration: 0.3s;
@@ -142,6 +146,7 @@ p {
 
 .outhouse-hero-container {
   background-color: black;
+  margin: 0 6px;
 }
 
 .hero-photo-container {
@@ -344,6 +349,10 @@ section#contact:hover * {
   }
 
   /*hero*/
+
+  .outhouse-hero-container{
+    margin: 0px
+  }
 
   .blaze-photo {
     display: none;
