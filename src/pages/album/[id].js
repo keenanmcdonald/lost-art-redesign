@@ -19,7 +19,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const props = albumData.find((album) => album.path === params.id)
-  console.log({ props })
   return { props }
 }
 
