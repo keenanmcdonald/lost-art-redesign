@@ -2,17 +2,10 @@ import React from "react"
 import Nav from "./Nav"
 import Link from "next/link"
 import Image from "next/image"
-import cxs from "cxs"
 
 export default function Header() {
   return (
-    <header
-      className={cxs({
-        display: "flex",
-        padding: "10px 5px",
-        alignItems: "center",
-      })}
-    >
+    <header className="header">
       <Link href="/">
         <Image
           alt="Lost Art Records logo with microphone"
@@ -21,7 +14,7 @@ export default function Header() {
           height={55}
         />
       </Link>
-      <div className={cxs({ flexGrow: 2 })}>
+      <div className="nav-container">
         <Nav />
       </div>
     </header>

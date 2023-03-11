@@ -8,7 +8,7 @@ function Album(props) {
       style={{ padding: "10px", textAlign: "center", marginTop: "14px" }}
       className="col-6 col-lg-4"
     >
-      <Link href={props.path}>
+      <Link href={`/album/${props.path}`}>
         <Image
           className={`cover ${props.noShadow ? "no-shadow " : ""} ${
             props.tall ? "tall" : ""

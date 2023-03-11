@@ -1,5 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from "next/document"
-import cxs from "cxs"
+import { Html, Head, Main, NextScript } from "next/document"
 
 export default function MyDocument() {
   return (
@@ -20,20 +19,4 @@ export default function MyDocument() {
       </body>
     </Html>
   )
-}
-
-export async function getInitialProps(ctx) {
-  const initialProps = await Document.getInitialProps(ctx)
-  const styles = cxs.css()
-  cxs.reset()
-
-  return {
-    ...initialProps,
-    styles: (
-      <>
-        {initialProps.styles}
-        <style dangerouslySetInnerHTML={{ __html: styles }} />
-      </>
-    ),
-  }
 }

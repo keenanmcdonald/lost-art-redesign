@@ -1,18 +1,15 @@
 import React from "react"
 import Link from "next/link"
 import Image from "next/image"
-import cxs from "cxs"
 
 function Hero() {
   return (
     <Link
       component="section"
-      className={`row ${cxs({
-        backgroundColor: "black",
-      })}`}
+      className="row outhouse-hero-container"
       href="/album/austinouthouse"
     >
-      <div className={`col-5 ${cxs({ padding: "0px" })}`}>
+      <div className="col-5 hero-photo-container">
         <Image
           className="blaze-photo"
           alt="blaze in profile"

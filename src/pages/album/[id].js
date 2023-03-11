@@ -2,26 +2,44 @@ import React, { useState, useEffect, useRef } from "react"
 import ReactHtmlParser from "react-html-parser"
 import { isMobile } from "react-device-detect"
 import Image from "next/image"
+import { useRouter } from "next/router"
+import { albumData } from "../../helpers/data"
 
-export default function AlbumPage(props) {
-  const {
-    purchase,
-    description,
-    tracklist,
-    artist,
-    title,
-    cover,
-    code,
-    message,
-    quote,
-    quote_attribution,
-    spotify,
-    notes,
-    video,
-    links,
-    disclaimer,
-  } = props
+export async function getStaticPaths() {
+  const paths = albumData.map((album) => ({
+    params: {
+      id: album.path,
+    },
+  }))
+  return {
+    paths,
+    fallback: false,
+  }
+}
 
+export async function getStaticProps({ params }) {
+  const props = albumData.find((album) => album.path === params.id)
+  console.log({ props })
+  return { props }
+}
+
+export default function AlbumPage({
+  purchase,
+  description,
+  tracklist,
+  artist,
+  title,
+  cover,
+  code,
+  message,
+  quote,
+  quote_attribution,
+  spotify,
+  notes,
+  video,
+  links,
+  disclaimer,
+}) {
   const [spotifyDimensions, setSpotifyDimensions] = useState({
     width: 300,
     height: 400,
@@ -40,14 +58,14 @@ export default function AlbumPage(props) {
   }, [description])
 
   return (
-    <section className="album-page">
+    <main className="album-page">
       <div className="album-page-main row">
         <div className="col-sm-12 col-md-6">
-          <Image
+          {/* <Image
             className="album-page-cover"
             alt={`${title} cover`}
             src={`/images/covers/${cover}`}
-          />
+          /> */}
         </div>
         <div className="title-purchase-container col-sm-12 col-md-6">
           {artist && (
@@ -136,7 +154,11 @@ export default function AlbumPage(props) {
           ))}
           <div className="notes-container">
             {Array.isArray(notes) ? (
-              notes.map((note) => <p className="note">{note}</p>)
+              notes.map((note) => (
+                <p key={note} className="note">
+                  {note}
+                </p>
+              ))
             ) : (
               <p className="note">{notes}</p>
             )}
@@ -178,6 +200,6 @@ export default function AlbumPage(props) {
       ) : (
         ""
       )}
-    </section>
+    </main>
   )
 }

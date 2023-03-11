@@ -51,6 +51,12 @@ body {
   background-color: #eeece1;
 }
 
+.outer-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-family: OldGrowth;
   color: white;
@@ -79,6 +85,16 @@ p {
 }
 
 /*Header*/
+.header {
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+}
+
+.nav-container {
+  flex-grow: 2;
+}
+
 .cart-container {
   position: absolute;
   bottom: 4px;
@@ -119,15 +135,17 @@ p {
 }
 
 /*Hero*/
-#hero {
-  background-color: black;
-  height: 500px;
-  width: 100vw;
-  margin: 0;
-}
 
 #hero:hover {
   cursor: pointer;
+}
+
+.outhouse-hero-container {
+  background-color: black;
+}
+
+.hero-photo-container {
+  padding: 0px;
 }
 
 .photo-container {
@@ -335,6 +353,7 @@ section#contact:hover * {
   }
 
   /*hero*/
+
   .blaze-photo {
     display: none;
   }
