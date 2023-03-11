@@ -23,23 +23,23 @@ a {
 
 @font-face {
   font-family: OakwoodClean;
-  src: url("../fonts/oakwood/Oakwood-Clean.otf") format("opentype");
+  src: url("../../public/fonts/oakwood/Oakwood-Clean.otf") format("opentype");
 }
 @font-face {
   font-family: OakwoodRough;
-  src: url("../fonts/oakwood/Oakwood-Rough.otf") format("opentype");
+  src: url("../../public/fonts/oakwood/Oakwood-Rough.otf") format("opentype");
 }
 @font-face {
   font-family: OakwoodRoughShadow;
-  src: url("../fonts/oakwood/Oakwood-RoughShadow.otf") format("opentype");
+  src: url("../../public/fonts/oakwood/Oakwood-RoughShadow.otf") format("opentype");
 }
 @font-face {
   font-family: OldGrowth;
-  src: url("../fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
+  src: url("../../public/fonts/old-growth/OldGrowth-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: cooper-black-std;
-  src: url("../fonts/cooper-black-std/cooper-black-std.ttf") format("truetype");
+  src: url("../../public/fonts/cooper-black-std/cooper-black-std.ttf") format("truetype");
 }
 
 * {
