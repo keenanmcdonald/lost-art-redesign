@@ -9,7 +9,7 @@ function Hero() {
       style={{
         height: 600,
       }}
-      href="/album/austinouthouse"
+      href="/album/outhouse-complete"
     >
       <div
         style={{
@@ -32,11 +32,19 @@ function Hero() {
             right: 0,
             zIndex: 2,
             height: 600,
-            width: 400,
-            background: "#2D2E22",
-            opacity: "80%",
+            width: 360,
+            backgroundColor: 'rgba(45, 46, 34, 0.8)',
+            textAlign: 'center'
           }}
-        ></div>
+        >
+          <p className='futura' style={{color: 'white', textAlign: 'center', fontSize: 120, lineHeight: '100px', marginTop: '40px'}}>BLAZE FOLEY</p>
+          <div style={{width: '80%', backgroundColor: 'white', height: '2px', margin: '30px auto 22px auto'}}/>
+          <p className='clarendon' style={{color: 'white', textAlign: 'center', fontSize: 28, marginBottom: 0, lineHeight: '30px'}}>THE COMPLETE</p>
+          <p className='clarendon' style={{color: '#FAED1F', textAlign: 'center', fontSize: 50, marginBottom: 0, lineHeight: '50px'}}>OUTHOUSE</p>
+          <p className='clarendon' style={{color: '#FAED1F', textAlign: 'center', fontSize: 56, marginBottom: '50px', lineHeight: '50px'}}>SESSIONS</p>
+          <p className='futura' style={{color: 'white', textAlign: 'center', fontSize: 60, marginBottom: 0, lineHeight: '50px'}}>Available Now</p>
+
+        </div>
       </div>
     </Link>
   )

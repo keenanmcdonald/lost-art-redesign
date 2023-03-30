@@ -41,6 +41,14 @@ a {
   font-family: cooper-black-std;
   src: url("../../public/fonts/cooper-black-std/cooper-black-std.ttf") format("truetype");
 }
+@font-face {
+  font-family: clarendon;
+  src: url("../../public/fonts/Clarendon_BT_Roman.otf") format("opentype");
+}
+@font-face {
+  font-family: futura;
+  src: url("../../public/fonts/FuturaDisDEE.ttf") format("truetype");
+}
 
 * {
   transition-duration: 0.3s;
@@ -341,6 +349,15 @@ section#contact:hover * {
   color: black;
   text-decoration: underline;
 }
+
+.futura {
+  font-family: futura, sans-serif;
+}
+
+.clarendon {
+  font-family: clarendon, serif;
+}
+
 
 @media only screen and (max-width: 850px) {
   .nav-about {
