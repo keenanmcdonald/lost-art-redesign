@@ -260,6 +260,20 @@ section#contact:hover * {
   text-decoration: underline;
 }
 
+.purchase-button {
+  transition-duration: 0.1s;
+  background-color: unset;
+}
+
+.purchase-button:hover {
+  background-color: rgba(0,0,0, 0.05);
+}
+
+.purchase-button.disabled {
+  background-color: unset;
+}
+
+
 .merch-page-main {
   border-top: 2px solid black;
   margin-top: 4px;
@@ -481,12 +495,6 @@ p.album-page-code {
   font-weight: 600;
 }
 
-.purchase-form-container {
-  width: 80px;
-  display: inline-block;
-  margin-right: 4px;
-}
-
 button.album-page-purchase-button,
 input.album-page-purchase-button {
   background-color: transparent;
@@ -589,6 +597,16 @@ p.album-page-disclaimer {
   font-weight: 900 !important;
   font-size: 18px;
   color: rgb(201, 0, 0);
+}
+
+.description-title {
+  font-family: cooper-black-std, sans-serif;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 900 !important;
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
 }
 
 @media only screen and (max-width: 850px) {

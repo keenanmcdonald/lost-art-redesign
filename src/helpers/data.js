@@ -40,6 +40,43 @@ export const merchData = [
 
 export const albumData = [
   {
+    title: "The Complete Outhouse Sessions",
+    artist: "Blaze Foley",
+    cover: "outhouse-complete.jpg",
+    descriptionTitle:
+      "Spend an Intimate Two Evenings with Blaze at the Austin Outhouse",
+    description: [
+      "Blaze Foley’s complete legendary 2-night performance at the Austin Outhouse is available from Lost Art Records. John Casner’s original start-to-finish 1988 recordings, nearly four hours in length, are remastered here and presented in their original sequence. The Complete Outhouse Sessions include fifty tracks and is available from most digital and streaming platforms and on USB flash drive from Lost Art.",
+      "Recorded just days before his tragic murder these now classic Blaze tracks were for years shared on hand-made cassettes among a small network of friends and fans. Ten years after Blaze’s death a number of the songs here were released on CD (Live at the Austin Outhouse, LAR 1015 and Oval Room, LAR 1018) and later on vinyl.",
+      "Casner’s recordings capture not only Blaze’s songwriting mastery they also chronicle his wit and philosophy by including spontaneous banter with Outhouse patrons, most of them friends.",
+      "These recordings are for Blaze newcomers and completists alike.",
+    ],
+    notes: [
+      "Recorded at the Austin Outhouse December 27 & 28, 1988 by John Casner",
+      "-",
+      "Outhouse Sessions Personnel:",
+      "Blaze Foley: Vocals, guitar",
+      "Ed Bradfield: Harmonica",
+      "Champ Hood: Fiddle",
+      "Pat Mears: Vocals",
+      "Tony Di Roadie: Harmonica",
+      "-",
+      "Mastered by Jerry Tubb at Terra Nova Mastering in Austin, Texas",
+    ],
+    additionalText: "Available on streaming platforms everywhere.",
+    purchase: [
+      {
+        format: "USB MUSIC CARD",
+        price: "$18.99",
+        button_id: "MNKQM9NXZXML2",
+      },
+    ],
+    path: "outhouse-complete",
+    code: "",
+    spotify: "3EiI2SMdPLGoaackZbbAP8",
+    code: "LAR1015D",
+  },
+  {
     title: "I Got The Blues",
     artist: "Cody Hubach",
     cover: "cody.jpg",

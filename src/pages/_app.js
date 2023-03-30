@@ -6,7 +6,7 @@ import Header from "../components/header/Header"
 export default function MyApp({ Component, pageProps }) {
   return (
     <div className="outer-container">
-      <Header />
+      {!pageProps.noHeader && <Header />}
       <Component {...pageProps} />
       <Contact />
     </div>

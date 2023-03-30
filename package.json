@@ -9,7 +9,8 @@
     "react-bootstrap": "^2.7.2",
     "react-device-detect": "^1.13.1",
     "react-dom": "^18.2.0",
-    "react-html-parser": "^2.0.2"
+    "react-html-parser": "^2.0.2",
+    "react-tooltip": "^5.10.1"
   },
   "scripts": {
     "dev": "next dev",

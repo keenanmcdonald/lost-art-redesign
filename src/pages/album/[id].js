@@ -4,6 +4,7 @@ import { isMobile } from "react-device-detect"
 import Image from "next/image"
 import Head from "next/head"
 import { albumData } from "../../helpers/data"
+import { Tooltip } from "react-tooltip"
 
 export async function getStaticPaths() {
   const paths = albumData.map((album) => ({
@@ -38,6 +39,8 @@ export default function AlbumPage({
   video,
   links,
   disclaimer,
+  additionalText,
+  descriptionTitle,
 }) {
   const [spotifyDimensions, setSpotifyDimensions] = useState({
     width: 300,
@@ -79,44 +82,46 @@ export default function AlbumPage({
           <h2 className="album-page-title">{title}</h2>
           <p className="album-page-code">{code}</p>
           {disclaimer && <p className="album-page-disclaimer">{disclaimer}</p>}
+          {additionalText && <p>{additionalText}</p>}
           <div className="album-page-purchase-container">
             <p className="album-page-purchase">Purchase</p>
-            {purchase.map((option, i) => (
-              <div key={i} className="purchase-form-container">
-                <form
-                  id={`paypal${i}`}
-                  target="paypal"
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
+            {purchase?.map((option, i) => (
+              <form
+                id={`paypal${i}`}
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+                key={option.button_id}
+                style={{ maxWidth: "400px" }}
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value={option.button_id}
+                />
+                <button
+                  className={`purchase-button ${option.disabled && "disabled"}`}
+                  style={{
+                    borderColor: "black",
+                    borderRadius: "4px",
+                    borderStyle: "solid",
+                    padding: "6px 12px",
+                    margin: "4px 0",
+                    minWidth: "160px",
+                  }}
+                  type="submit"
+                  form={`paypal${i}`}
+                  disabled={option.disabled}
                 >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value={option.button_id}
-                  />
-                  <div className="purchase-button-container">
-                    <button
-                      type="submit"
-                      form={`paypal${i}`}
-                      className={`album-page-purchase-button format ${
-                        option.disabled ? "disabled" : ""
-                      }`}
-                    >
-                      {option.format.toUpperCase()}
-                    </button>
-                    <button
-                      type="submit"
-                      form={`paypal${i}`}
-                      className={`album-page-purchase-button price ${
-                        option.disabled ? "disabled" : ""
-                      }`}
-                    >
-                      {option.price}
-                    </button>
-                  </div>
-                </form>
-              </div>
+                  {`${option.format.toUpperCase()} - ${option.price}`}
+                </button>
+                {option.format === "USB MUSIC CARD" && (
+                  <em style={{ marginLeft: "5px", textDecoration: "italics" }}>
+                    What is this?
+                  </em>
+                )}
+              </form>
             ))}
           </div>
           {links && (
@@ -152,6 +157,11 @@ export default function AlbumPage({
             spotify || tracklist ? "col-sm-6" : ""
           }`}
         >
+          {descriptionTitle && (
+            <div style={{ textAlign: "center" }}>
+              <h3 className="description-title">{descriptionTitle}</h3>
+            </div>
+          )}
           {description.map((paragraph, i) => (
             <p key={i} className="album-page-description">
               {paragraph}

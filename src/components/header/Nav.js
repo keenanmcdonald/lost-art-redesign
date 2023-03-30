@@ -16,7 +16,7 @@ function Nav() {
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link className="nav-link" href="/#about">
+        <Link className="nav-link" href="/about-blaze">
           about
         </Link>
       </li>
