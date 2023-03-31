@@ -67,7 +67,7 @@ export const albumData = [
     purchase: [
       {
         format: "USB MUSIC CARD",
-        price: "$18.99",
+        price: "$20",
         button_id: "MNKQM9NXZXML2",
       },
     ],

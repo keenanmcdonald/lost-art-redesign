@@ -47,6 +47,7 @@ export default function AlbumPage({
     height: 400,
   })
   const descriptionRef = useRef()
+  const [showUsbModal, setShowUsbModal] = useState(false)
 
   useEffect(() => {
     setSpotifyDimensions({
@@ -115,12 +116,31 @@ export default function AlbumPage({
                   disabled={option.disabled}
                 >
                   {`${option.format.toUpperCase()} - ${option.price}`}
+                  {option.format === "USB MUSIC CARD" && (
+                    <div style={{ marginTop: "10px" }}>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          marginTop: "10px",
+                          fontSize: "14px",
+                        }}
+                      >
+                        A USB flash drive the size of a credit card. Each card
+                        holds the album’s 50 tracks in MP3 and WAV formats.
+                      </p>
+                      <Image
+                        alt="credit card-sized graphic of album art"
+                        src="/images/outhouse-complete-usb.jpg"
+                        height={140}
+                        width={216}
+                        style={{
+                          boxShadow: "-2px 2px 6px 0px rgba(0, 0, 0, 0.4)",
+                          marginBottom: "10px",
+                        }}
+                      />
+                    </div>
+                  )}
                 </button>
-                {option.format === "USB MUSIC CARD" && (
-                  <em style={{ marginLeft: "5px", textDecoration: "italics" }}>
-                    What is this?
-                  </em>
-                )}
               </form>
             ))}
           </div>
