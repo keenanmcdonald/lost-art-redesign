@@ -110,6 +110,7 @@ export default function AlbumPage({
                     padding: "6px 12px",
                     margin: "4px 0",
                     minWidth: "160px",
+                    color: "black",
                   }}
                   type="submit"
                   form={`paypal${i}`}
