@@ -18,8 +18,7 @@ function Contact(props) {
               music@lostartrecords.com
             </a>
           </li>
-          <li className="address">1102 Live Oak Ridge, Austin, TX 78746</li>
-          <li className="phone">512-472-9770</li>
+          <li className="address">Austin, TX</li>
         </ul>
       </div>
     </section>

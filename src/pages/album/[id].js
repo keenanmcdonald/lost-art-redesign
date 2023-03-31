@@ -35,6 +35,7 @@ export default function AlbumPage({
   quote,
   quote_attribution,
   spotify,
+  bandcamp,
   notes,
   video,
   links,
@@ -47,16 +48,11 @@ export default function AlbumPage({
     height: 400,
   })
   const descriptionRef = useRef()
-  const [showUsbModal, setShowUsbModal] = useState(false)
 
   useEffect(() => {
     setSpotifyDimensions({
       width: descriptionRef.current.offsetWidth * 0.8,
-      height: isMobile
-        ? 400
-        : descriptionRef.current.offsetHeight > 500
-        ? 500
-        : descriptionRef.current.offsetHeight,
+      height: isMobile ? 400 : descriptionRef.current.offsetHeight,
     })
   }, [description])
 
@@ -175,7 +171,7 @@ export default function AlbumPage({
         <div
           ref={descriptionRef}
           className={`album-page-description-container ${
-            spotify || tracklist ? "col-sm-6" : ""
+            spotify || bandcamp || tracklist ? "col-sm-6" : ""
           }`}
         >
           {descriptionTitle && (
@@ -212,21 +208,35 @@ export default function AlbumPage({
               allow="encrypted-media"
             ></iframe>
           </div>
-        ) : tracklist ? (
-          <div className="album-page-tracklist-container col-sm-6">
-            <div className="album-page-tracklist-title-container">
-              <h5 className="album-page-tracklist-title">tracklist</h5>
-            </div>
-            <ol className="album-page-tracklist">
-              {tracklist.map((trackName, i) => (
-                <li key={i} className="album-page-track">
-                  {trackName}
-                </li>
-              ))}
-            </ol>
+        ) : bandcamp ? (
+          <div className="album-page-spotify col-sm-6">
+            <iframe
+              width={spotifyDimensions.width}
+              height={spotifyDimensions.height}
+              style={{ border: 0 }}
+              src={`https://bandcamp.com/EmbeddedPlayer/album=${bandcamp}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/`}
+              seamless
+            >
+              {/* <a href="https://blazefoleylostart.bandcamp.com/album/the-complete-outhouse-sessions-2">
+                The Complete Outhouse Sessions by Blaze Foley
+              </a> */}
+            </iframe>
           </div>
         ) : (
-          ""
+          tracklist && (
+            <div className="album-page-tracklist-container col-sm-6">
+              <div className="album-page-tracklist-title-container">
+                <h5 className="album-page-tracklist-title">tracklist</h5>
+              </div>
+              <ol className="album-page-tracklist">
+                {tracklist.map((trackName, i) => (
+                  <li key={i} className="album-page-track">
+                    {trackName}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )
         )}
       </div>
       {video ? (

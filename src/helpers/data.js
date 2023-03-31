@@ -73,7 +73,7 @@ export const albumData = [
     ],
     path: "outhouse-complete",
     code: "",
-    spotify: "3EiI2SMdPLGoaackZbbAP8",
+    bandcamp: "1960408020",
     code: "LAR1015D",
   },
   {
