@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css"
-import "../css/global.css"
+import "../../public/css/global.css"
 import Contact from "../components/Contact"
 import Header from "../components/header/Header"
 
