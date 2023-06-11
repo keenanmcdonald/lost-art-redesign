@@ -5,7 +5,7 @@ module.exports = (phase, { defaultConfig }) => {
   const nextConfig = {
     images: { unoptimized: true },
     output: "export",
-    // assetPrefix: "./",
+    trailingSlash: true,
   }
   return nextConfig
 }

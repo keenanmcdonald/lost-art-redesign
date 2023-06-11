@@ -204,7 +204,6 @@ export const albumData = [
         format: "VINYL",
         price: "$25.00",
         button_id: "6THV4P956B9E6",
-        disabled: true,
       },
       {
         format: "CD",
@@ -215,7 +214,6 @@ export const albumData = [
     path: "austinouthouse",
     spotify: "20jfTvbCUwJjOAhPkeIv61",
     code: "LAR1015V | EOE3",
-    disclaimer: "Vinyl currently out of stock",
   },
   {
     title: "Sittin' by the Road",

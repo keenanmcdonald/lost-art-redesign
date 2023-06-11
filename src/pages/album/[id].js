@@ -4,7 +4,6 @@ import { isMobile } from "react-device-detect"
 import Image from "next/image"
 import Head from "next/head"
 import { albumData } from "../../helpers/data"
-import { Tooltip } from "react-tooltip"
 
 export async function getStaticPaths() {
   const paths = albumData.map((album) => ({

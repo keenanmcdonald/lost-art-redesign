@@ -21,8 +21,8 @@ function Nav() {
         </Link>
       </li>
       <li className="nav-list-item">
-        <Link className="nav-link" href="/#contact">
-          contact
+        <Link className="nav-link" href="/archive">
+          archive/links
         </Link>
       </li>
       <li className="nav-list-item" />
