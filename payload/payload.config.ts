@@ -11,7 +11,7 @@ export default buildConfig({
       hooks: {
         afterChange: [() => {
           console.log('after change links')
-          revalidatePath('/archive')
+          revalidatePath('/')
         }]
       }
     }
