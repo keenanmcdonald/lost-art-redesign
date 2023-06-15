@@ -1,9 +1,20 @@
 import path from 'path';
-import { buildConfig } from 'payload/config';
+import { buildConfig } from 'payload/config'
+import { revalidatePath } from 'next/cache'
+
 
 export default buildConfig({
   collections: [
-    {slug: 'links', fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}]}
+    {
+      slug: 'links', 
+      fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
+      hooks: {
+        afterChange: [() => {
+          console.log('after change links')
+          revalidatePath('/archive')
+        }]
+      }
+    }
   ],
   globals: [
     // Your globals here

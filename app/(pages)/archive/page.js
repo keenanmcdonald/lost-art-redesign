@@ -1,7 +1,6 @@
 import NextLink from "next/link"
 import Image from "next/image"
-import { getPayloadClient } from "../../../payload/payloadClient";
-
+import { getPayloadClient } from "../../../payload/payloadClient"
 
 const styles = {
   container: { minHeight: "calc(100vh - 200px)" },
@@ -19,22 +18,22 @@ const styles = {
 }
 
 export default async function Links() {
-    const payload = await getPayloadClient()
+  const payload = await getPayloadClient()
 
-    const {docs: links} = await payload.find({collection: 'links'})
+  const { docs: links } = await payload.find({ collection: "links" })
 
-    return (
-        <section style={styles.container}>
-        <div className="section-title-container">
-            <h3>Archive / Links</h3>
-        </div>
-        <div style={styles.linkSection}>
-            {links.map((link) => {
+  return (
+    <section style={styles.container}>
+      <div className="section-title-container">
+        <h3>Archive / Links</h3>
+      </div>
+      <div style={styles.linkSection}>
+        {/* {links.map((link) => {
                 return <Link key={link.id} href={link.href}>{link.title}</Link>
-            })}
-        </div>
-        </section>
-    )
+            })} */}
+      </div>
+    </section>
+  )
 }
 
 function Link({ href, children }) {
