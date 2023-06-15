@@ -37,7 +37,7 @@ export default async function Links() {
     )
 }
 
-export function Link({ href, children }) {
+function Link({ href, children }) {
   return (
     <NextLink href={href} style={styles.link}>
       <Image
