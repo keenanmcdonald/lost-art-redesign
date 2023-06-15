@@ -8,8 +8,7 @@ export default buildConfig({
       fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
       hooks: {
         afterChange: [() => {
-          console.log('revalidate: ', process.env.BASE_URL + '/api/revalidate')
-          fetch(process.env.BASE_URL + '/api/revalidate')
+          fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')
         }]
       }
     }
