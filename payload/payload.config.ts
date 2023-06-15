@@ -7,9 +7,8 @@ export default buildConfig({
       slug: 'links', 
       fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
       hooks: {
-        afterChange: [() => {
-          fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')
-        }]
+        afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')],
+        afterDelete: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')]
       }
     }
   ],
