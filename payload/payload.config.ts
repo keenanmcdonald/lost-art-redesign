@@ -7,9 +7,9 @@ export default buildConfig({
       slug: 'links', 
       fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
       hooks: {
-        afterChange: [(doc) => {
+        afterChange: [() => {
+          console.log('revalidate: ', process.env.BASE_URL + '/api/revalidate')
           fetch(process.env.BASE_URL + '/api/revalidate')
-          return doc
         }]
       }
     }
