@@ -1,7 +1,5 @@
 import path from 'path';
 import { buildConfig } from 'payload/config'
-import { revalidatePath } from 'next/cache'
-
 
 export default buildConfig({
   collections: [
@@ -9,9 +7,10 @@ export default buildConfig({
       slug: 'links', 
       fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
       hooks: {
-        afterChange: [() => {
-          console.log('after change links')
-          revalidatePath('/')
+        afterChange: [(doc) => {
+          console.log(doc)
+          // fetch(process.env.BASE_URL + '/api/revalidate')
+          return doc
         }]
       }
     }
