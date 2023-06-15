@@ -28,9 +28,13 @@ export default async function Links() {
         <h3>Archive / Links</h3>
       </div>
       <div style={styles.linkSection}>
-        {/* {links.map((link) => {
-                return <Link key={link.id} href={link.href}>{link.title}</Link>
-            })} */}
+        {links.map((link) => {
+          return (
+            <Link key={link.id} href={link.href}>
+              {link.title}
+            </Link>
+          )
+        })}
       </div>
     </section>
   )
