@@ -20,7 +20,7 @@ const styles = {
 export default async function Links() {
   const payload = await getPayloadClient()
 
-  const { docs: links } = await payload.find({ collection: "links" })
+  const { links } = await payload.findGlobal({slug: "archive"})
 
   return (
     <section style={styles.container}>
@@ -30,7 +30,7 @@ export default async function Links() {
       <div style={styles.linkSection}>
         {links.map((link) => {
           return (
-            <Link key={link.id} href={link.href}>
+            <Link key={link.id} href={link.url}>
               {link.title}
             </Link>
           )

@@ -1,19 +1,43 @@
 import path from 'path';
 import { buildConfig } from 'payload/config'
+import { Block, CollectionConfig } from 'payload/types';
+
+const LinkBlock: Block =   {
+  slug: 'link',
+  interfaceName: 'Link',
+  fields: [
+  {
+    name: 'title',
+    type: 'text',
+    required: true,
+  },
+  {
+    name: 'url',
+    type: 'text',
+    required: true
+  },
+],
+}
 
 export default buildConfig({
   collections: [
-    {
-      slug: 'links', 
-      fields: [{name: 'title', type: 'text', required: true}, {name: 'href', type: 'text', required: true}], 
-      hooks: {
-        afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')],
-        afterDelete: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')]
-      }
-    }
   ],
   globals: [
-    // Your globals here
+    {
+      slug: 'archive',
+      fields:     [{
+        name: 'archive', 
+        type: 'blocks',
+        minRows: 1,
+        maxRows: 100,
+        blocks: [
+          LinkBlock,
+        ],
+      }],
+      hooks: {
+        afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')],
+      }
+    }
   ],
   typescript: {
     outputFile: path.resolve(__dirname, '../payload-types.ts'),
