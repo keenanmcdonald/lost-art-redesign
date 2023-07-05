@@ -35,7 +35,9 @@ export default buildConfig({
         ],
       }],
       hooks: {
-        afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?path=/archive')],
+        afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?' + new URLSearchParams({
+          path: '/archive',
+      }))],
       }
     }
   ],
