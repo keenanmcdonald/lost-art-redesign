@@ -1,6 +1,6 @@
 import path from 'path';
 import { buildConfig } from 'payload/config'
-import { Block, CollectionConfig } from 'payload/types';
+import { Block } from 'payload/types';
 
 const LinkBlock: Block =   {
   slug: 'link',
