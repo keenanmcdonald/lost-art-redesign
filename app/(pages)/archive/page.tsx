@@ -44,7 +44,7 @@ export default async function Links() {
 
 function Link({ href, children }) {
   return (
-    <NextLink href={href} style={styles.link}>
+    <NextLink href={href} style={styles.link} rel="noopener noreferrer" target="_blank">
       <Image
         src="/images/link-icon.png"
         alt="link icon"
