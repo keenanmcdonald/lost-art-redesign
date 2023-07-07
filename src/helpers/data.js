@@ -1,7 +1,7 @@
 export const merchData = [
   {
     title: "Blaze Tee",
-    image: "shirt1.jpg",
+    image: "shirt2.jpg",
     description: [
       "Officially Licensed Blaze Tees.\nExclusively from Lost Art Records.",
       "Iconic Blaze Image by C.P. Vaughn.\n100% Cotton Gildan Shirt.",
