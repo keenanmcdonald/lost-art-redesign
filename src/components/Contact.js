@@ -14,7 +14,7 @@ function Contact(props) {
         />
         <ul className="contact-info">
           <li className="email">
-            <a href={`mailto:music@lostartrecords.com`}>
+            <a href={`mailto:music@lostartrecords.com`} target="_blank">
               music@lostartrecords.com
             </a>
           </li>
