@@ -1,6 +1,6 @@
 import NextLink from "next/link"
 import Image from "next/image"
-import { getPayloadClient } from "../../../payload/payloadClient"
+import { getPayloadClient } from "../../payload/payloadClient"
 
 const styles = {
   container: { minHeight: "calc(100vh - 200px)" },
@@ -17,7 +17,7 @@ const styles = {
   linkSection: { marginLeft: 20, marginTop: 20 },
 }
 
-export default async function Links() {
+export default async function Archive() {
   const payload = await getPayloadClient()
 
   const { archive } = await payload.findGlobal({slug: "archive"})

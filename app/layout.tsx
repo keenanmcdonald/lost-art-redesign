@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css"
-import "../../src/css/global.css"
-import Contact from "../../src/components/Contact"
-import Header from "../../src/components/header/Header"
+import "../src/css/global.css"
+import Contact from "../src/components/Contact"
+import Header from "../src/components/header/Header"
 
 
 export const metadata = {
