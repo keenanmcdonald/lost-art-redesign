@@ -24,8 +24,6 @@ export default async function Archive() {
 
   const { archive } = await payload.findGlobal({slug: "archive"})
 
-  console.log('archive page: ', archive[2])
-
   return (
     <section style={styles.container}>
       <div className="section-title-container">
