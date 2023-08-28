@@ -1,4 +1,3 @@
-import React from "react"
 import Nav from "./Nav"
 import Link from "next/link"
 import Image from "next/image"
