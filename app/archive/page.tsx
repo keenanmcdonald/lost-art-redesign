@@ -1,6 +1,5 @@
 import NextLink from "next/link"
 import Image from "next/image"
-import { getPayloadClient } from "../../payload/payloadClient"
 
 const styles = {
   container: { minHeight: "calc(100vh - 200px)" },
@@ -18,9 +17,8 @@ const styles = {
 }
 
 export default async function Archive() {
-  const payload = await getPayloadClient()
-
-  const { archive } = await payload.findGlobal({slug: "archive"})
+  const response = await fetch(process.env.BASE_URL + '/api/globals/archive')
+  const { archive } = await response.json()
 
   return (
     <section style={styles.container}>
