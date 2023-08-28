@@ -16,10 +16,12 @@ const styles = {
   linkSection: { marginLeft: 20, marginTop: 20 },
 }
 
+const BASE_URL = process.env.VERCEL_URL || 'http://localhost:3000'
+
 export default async function Archive() {
   let archive: any = []
   try {
-    const response = await fetch(process.env.BASE_URL + '/api/globals/archive')
+    const response = await fetch(BASE_URL)
     console.log(response.status)
     const data = await response.json()
     console.log(data)
