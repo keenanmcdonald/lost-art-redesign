@@ -38,8 +38,7 @@ export default buildConfig({
         afterChange: [() => fetch(process.env.BASE_URL + '/api/revalidate?' + new URLSearchParams({
           path: '/archive',
       }))],
-      },
-      access: { read: () => true } 
+      }
     }
   ],
   typescript: {
