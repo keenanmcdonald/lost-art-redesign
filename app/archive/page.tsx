@@ -1,5 +1,6 @@
 import NextLink from "next/link"
 import Image from "next/image"
+import { getPayloadClient } from "../../payload/payloadClient";
 
 const styles = {
   container: { minHeight: "calc(100vh - 200px)" },
@@ -19,16 +20,8 @@ const styles = {
 const BASE_URL = `https://${process.env.VERCEL_URL}` || 'http://localhost:3000'
 
 export default async function Archive() {
-  let archive: any = []
-  try {
-    const response = await fetch('https://.../api/archive')
-    console.log(response.status)
-    const data = await response.json()
-    console.log(data)
-    archive = data.archive
-  } catch(e) {
-    console.error(e)
-  }
+  const payload = await getPayloadClient();
+  const { archive } = await payload.findGlobal({slug: "archive"})
 
   return (
     <section style={styles.container}>
