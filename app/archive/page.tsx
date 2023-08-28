@@ -17,8 +17,16 @@ const styles = {
 }
 
 export default async function Archive() {
-  const response = await fetch(process.env.BASE_URL + '/api/globals/archive')
-  const { archive } = await response.json()
+  let archive = []
+  try {
+    const response = await fetch(process.env.BASE_URL + '/api/globals/archive')
+    console.log(response.status)
+    const data = await response.json()
+    console.log(data)
+    archive = data.archive
+  } catch(e) {
+    console.error(e)
+  }
 
   return (
     <section style={styles.container}>
