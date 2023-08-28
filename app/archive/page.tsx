@@ -21,8 +21,8 @@ export default async function Archive() {
   const payload = await getPayloadClient()
 
   const { archive } = await payload.findGlobal({slug: "archive"})
-  
-  console.log('archive page ran')
+
+  console.log('archive page: ', archive[2])
 
   return (
     <section style={styles.container}>
