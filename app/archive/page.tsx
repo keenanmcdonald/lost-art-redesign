@@ -21,7 +21,7 @@ const BASE_URL = `https://${process.env.VERCEL_URL}` || 'http://localhost:3000'
 export default async function Archive() {
   let archive: any = []
   try {
-    const response = await fetch(BASE_URL + '/api/archive')
+    const response = await fetch('https://.../api/archive')
     console.log(response.status)
     const data = await response.json()
     console.log(data)
