@@ -2,6 +2,8 @@ import NextLink from "next/link"
 import Image from "next/image"
 import { getPayloadClient } from "../../payload/payloadClient"
 
+export const revalidate = 60
+
 const styles = {
   container: { minHeight: "calc(100vh - 200px)" },
   link: {
