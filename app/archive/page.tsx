@@ -1,5 +1,5 @@
 import NextLink from "next/link"
-import Image from "next/image"
+// import Image from "next/image"
 import { getPayloadClient } from "../../payload/payloadClient"
 
 const styles = {
@@ -45,11 +45,9 @@ export default async function Archive() {
 function Link({ href, children }) {
   return (
     <NextLink href={href} style={styles.link} rel="noopener noreferrer" target="_blank">
-      <Image
+      <img
         src="/images/link-icon.png"
         alt="link icon"
-        width={18}
-        height={18}
         style={styles.linkIcon}
       />
       {children}
