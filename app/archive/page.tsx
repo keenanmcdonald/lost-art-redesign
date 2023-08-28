@@ -17,7 +17,7 @@ const styles = {
 }
 
 export default async function Archive() {
-  let archive = []
+  let archive: any = []
   try {
     const response = await fetch(process.env.BASE_URL + '/api/globals/archive')
     console.log(response.status)
