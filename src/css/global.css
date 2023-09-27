@@ -278,7 +278,8 @@ section#contact:hover * {
 }
 
 .purchase-button.disabled {
-  background-color: unset;
+  background-color: rgb(82, 82, 82);
+  text-decoration: line-through;
 }
 
 
@@ -650,5 +651,16 @@ p.album-page-disclaimer {
 @media only screen and (max-width: 650px) {
   img.album-page-cover {
     margin-bottom: 6px;
+  }
+}
+
+.away-banner {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .away-banner {
+    flex-direction: column;
   }
 }
