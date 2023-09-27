@@ -7,17 +7,21 @@ export default function AwayBanner() {
       className="away-banner"
       style={{ display: "flex", alignItems: "center" }}
     >
-      <Image
-        alt="a drawing by Blaze Foley of a duck driving a car"
-        src="/images/duck-drawing.jpeg"
-        width={400}
-        height={200}
-        style={{
-          borderRadius: "10px",
-          marginRight: "40px",
-          marginBottom: "10px",
-        }}
-      />
+      <div>
+        <Image
+          alt="a drawing by Blaze Foley of a duck driving a car"
+          src="/images/duck-drawing.jpeg"
+          width={300}
+          height={200}
+          style={{
+            borderRadius: "10px",
+            marginRight: "40px",
+          }}
+        />
+        <p style={{ fontSize: "12px", marginTop: "4px" }}>
+          &quot;Duck Car (Facing Left)&quot; By Ezalb Yelof (Blaze Foley)
+        </p>
+      </div>
       <div>
         <p style={{ fontSize: "22px", fontWeight: "bold" }}>
           We&rsquo;re on the road!
