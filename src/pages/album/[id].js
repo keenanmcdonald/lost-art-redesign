@@ -4,7 +4,6 @@ import { isMobile } from "react-device-detect"
 import Image from "next/image"
 import Head from "next/head"
 import { albumData } from "../../helpers/data"
-import AwayBanner from "../../components/away-banner"
 
 export async function getStaticPaths() {
   const paths = albumData.map((album) => ({
@@ -61,7 +60,6 @@ export default function AlbumPage({
       <Head>
         <title>{`${artist} - ${title}`}</title>
       </Head>
-      <AwayBanner />
       <div className="album-page-main row">
         <div className="col-sm-12 col-md-6">
           <Image
@@ -99,8 +97,7 @@ export default function AlbumPage({
                   value={option.button_id}
                 />
                 <button
-                  className="purchase-button disabled"
-                  //className={`purchase-button ${option.disabled && "disabled"}`}
+                  className={`purchase-button ${option.disabled && "disabled"}`}
                   style={{
                     borderColor: "black",
                     borderRadius: "4px",
@@ -112,7 +109,7 @@ export default function AlbumPage({
                   }}
                   type="submit"
                   form={`paypal${i}`}
-                  disabled //={option.disabled}
+                  disabled={option.disabled}
                 >
                   {`${option.format.toUpperCase()} - ${option.price}`}
                   {option.format === "USB MUSIC CARD" && (
@@ -135,7 +132,6 @@ export default function AlbumPage({
                         style={{
                           boxShadow: "-2px 2px 6px 0px rgba(0, 0, 0, 0.4)",
                           marginBottom: "10px",
-                          filter: "grayscale(100%)",
                         }}
                       />
                     </div>
