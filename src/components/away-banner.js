@@ -27,7 +27,7 @@ export default function AwayBanner() {
           We&rsquo;re on the road!
         </p>
         <p style={{ fontSize: "18px" }}>
-          All Orders are suspended until October 12th when we return. In the
+          All Orders are suspended until November 18th when we return. In the
           meantime, check out our catalog on{" "}
           <Link href="https://lostartrecords.bandcamp.com/">Bandcamp</Link> or
           if you want to order a physical album,{" "}
