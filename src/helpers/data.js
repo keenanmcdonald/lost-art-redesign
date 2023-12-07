@@ -204,6 +204,7 @@ export const albumData = [
         format: "VINYL",
         price: "$25.00",
         button_id: "6THV4P956B9E6",
+        disabled: true,
       },
       {
         format: "CD",
