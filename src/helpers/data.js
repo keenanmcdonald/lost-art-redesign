@@ -12,6 +12,7 @@ export const merchData = [
       type: "dropdown",
       button_id: "YUGFXE9LN52MU",
       price: "$25.00",
+      disabled: true,
       options: [
         {
           name: "Small",

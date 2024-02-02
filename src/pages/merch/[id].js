@@ -50,7 +50,15 @@ export default function MerchProductPage({
             ))}
           </div>
           <div className="album-page-purchase-container">
-            {purchase.type === "dropdown" ? (
+            {purchase.disabled && (
+              <button
+                className={`merch-page-purchase-button disabled`}
+                disabled
+              >
+                Sold Out
+              </button>
+            )}
+            {purchase.type === "dropdown" && !purchase.disabled && (
               <form
                 id={`paypal`}
                 target="paypal"
@@ -71,29 +79,6 @@ export default function MerchProductPage({
                     </option>
                   ))}
                 </select>
-                <div className="purchase-button-container">
-                  <button
-                    type="submit"
-                    form={`paypal`}
-                    className={`merch-page-purchase-button`}
-                  >
-                    Proceed to Purchase
-                  </button>
-                </div>
-              </form>
-            ) : (
-              <form
-                id={`paypal`}
-                target="paypal"
-                action="https://www.paypal.com/cgi-bin/webscr"
-                method="post"
-              >
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input
-                  type="hidden"
-                  name="hosted_button_id"
-                  value={purchase.button_id}
-                />
                 <div className="purchase-button-container">
                   <button
                     type="submit"
