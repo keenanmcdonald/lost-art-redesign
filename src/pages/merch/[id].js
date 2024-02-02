@@ -51,12 +51,9 @@ export default function MerchProductPage({
           </div>
           <div className="album-page-purchase-container">
             {purchase.disabled && (
-              <button
-                className={`merch-page-purchase-button disabled`}
-                disabled
-              >
+              <p style={{ fontSize: 22, fontWeight: 900, textAlign: "center" }}>
                 Sold Out
-              </button>
+              </p>
             )}
             {purchase.type === "dropdown" && !purchase.disabled && (
               <form
