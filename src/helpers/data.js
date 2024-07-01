@@ -133,7 +133,7 @@ export const albumData = [
     purchase: [
       {
         format: "Vinyl",
-        price: "$18.00",
+        price: "$25.00",
         button_id: "HT544KCHMQZTU",
       },
     ],
