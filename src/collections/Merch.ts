@@ -1,7 +1,11 @@
 import type { CollectionConfig } from 'payload'
 
-export const Products: CollectionConfig = {
-  slug: 'products',
+export const Merch: CollectionConfig = {
+  slug: 'merch',
+  labels: {
+    singular: 'Merch',
+    plural: 'Merch',
+  },
   access: {
     read: () => true,
   },

@@ -21,6 +21,7 @@
     "strictNullChecks": true,
     "paths": {
       "@/*": ["./src/*"],
+      "@media/*": ["./media/*"],
       "@payload-config": ["./src/payload.config.ts"]
     },
     "target": "ES2017"

@@ -1,3 +1,4 @@
+import { slugValidator } from '@/helpers/validation'
 import type { CollectionConfig } from 'payload'
 
 export const Pages: CollectionConfig = {
@@ -6,13 +7,21 @@ export const Pages: CollectionConfig = {
     read: () => true,
   },
   admin: {
-    useAsTitle: 'name',
+    useAsTitle: 'title',
   },
   fields: [
     {
-      name: 'name',
-      label: 'Name',
+      name: 'title',
+      label: 'Title',
       type: 'text',
+      required: true,
+    },
+    {
+      name: 'slug',
+      label: 'Slug',
+      type: 'text',
+      unique: true,
+      validate: slugValidator,
       required: true,
     },
     {

@@ -8,7 +8,8 @@ import sharp from 'sharp'
 
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
-import { Products } from './collections/Products'
+import { Merch } from './collections/Merch'
+import { Albums } from './collections/Albums'
 import { Pages } from './collections/Pages'
 
 const filename = fileURLToPath(import.meta.url)
@@ -18,7 +19,7 @@ export default buildConfig({
   admin: {
     user: Users.slug,
   },
-  collections: [Users, Media, Products, Pages],
+  collections: [Users, Media, Merch, Pages, Albums],
   editor: slateEditor({}),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

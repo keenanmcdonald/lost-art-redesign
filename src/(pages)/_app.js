@@ -1,6 +1,6 @@
-import "../css/global.css";
-import Contact from "../components/Contact";
-import Header from "../components/header/Header";
+import '../css/global.css'
+import Contact from '../components/(old)/Contact'
+import Header from '../components/(old)/header/Header'
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -9,5 +9,5 @@ export default function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Contact />
     </div>
-  );
+  )
 }
