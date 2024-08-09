@@ -1,7 +1,7 @@
-const path = require("path")
-const { withPayload } = require("@payloadcms/next-payload")
+const { withPayload } = require("@payloadcms/next/withPayload");
+const path = require("path");
 
-module.exports = (phase, { defaultConfig }) => {
+module.exports = withPayload((phase, { defaultConfig }) => {
   /**
    * @type {import('next').NextConfig}
    */
@@ -17,6 +17,6 @@ module.exports = (phase, { defaultConfig }) => {
       // Point to your exported, initialized Payload instance (optional, default shown below`)
       payloadPath: path.resolve(process.cwd(), "./payload/payloadClient.ts"),
     }
-  )
-  return nextConfig
-}
+  );
+  return nextConfig;
+});
